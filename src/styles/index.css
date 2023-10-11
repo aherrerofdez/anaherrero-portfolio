@@ -88,7 +88,10 @@
 
 :root {
     --primary_color_800: #033899;
+    --primary_color_100: #C2CBEA;
+    --primary_color_200: #9AA9DC;
     --primary_color_50: #E7EAF7;
+    --secondary_color_600: #E8B311;
 }
 
 body {
@@ -99,23 +102,34 @@ body {
 }
 
 #navbar {
-    background-color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
     height: 4.5rem;
     clear: both;
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0em 2px 5px var(--primary_color_800);
+    box-shadow: 0em 2px 5px var(--primary_color_200);
 }
 
 #logo {
     float: left;
+    margin-left: 2rem;
 }
 
-#logo img {
-    width: 30%;
-    padding-top: 0.3rem;
-    margin-left: 1rem;
+#logo button, img{
+    max-height: 3.25rem;
+    padding: 0 1rem;
+    margin-top: 0;
+}
+
+#logo button, nav ul li a button {
+    box-shadow: 4px 4px var(--primary_color_200);
+    margin-top: 0.5rem;
+}
+
+#logo button:hover, nav ul li a button:hover {
+    background-color: var(--primary_color_50);
+    box-shadow: 4px 4px var(--primary_color_800);
 }
 
 nav ul {
@@ -123,16 +137,11 @@ nav ul {
     display: flex;
     justify-content: center;
     float: right;
-    padding-top: 1.25rem;
     margin: 0;
 }
 
-nav ul li {
-    margin: 0 2rem;
-}
-
 nav ul li a {
-    color: var(--primary_color_50);
+    margin-right: 2rem;
 }
 
 header, #contact {
@@ -170,7 +179,7 @@ h2 {
 header .role {
     padding-top: 4rem;
     margin-bottom: 3rem;
-    color: #E8B311;
+    color: var(--secondary_color_600);
 }
 
 header img, .contact-cell img {
@@ -222,9 +231,21 @@ button {
     padding: 1rem 2rem;
     margin-top: 1rem;
     font-size: 1rem;
+    font-family: 'futuraheavy', sans-serif;
     border: none;
     border-radius: 10px;
-    box-shadow: 4px 4px #E8B311;
+    box-shadow: 4px 4px var(--secondary_color_600);
+}
+
+button:hover {
+    background-color: var(--secondary_color_600);
+    box-shadow: 4px 4px var(--primary_color_50);
+}
+
+button:active {
+    background-color: var(--secondary_color_600);
+    box-shadow: 4px 4px var(--primary_color_50);
+    transform: translateY(4px);
 }
 
 footer {
