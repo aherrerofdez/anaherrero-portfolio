@@ -121,17 +121,17 @@ nav ul li a {
 header {
     font-family: 'futuramedium', sans-serif;
     display: grid;
-    margin: 1rem 0;
+    margin: 2rem 0;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
 }
   
 .header-cell {
-    height: 25rem;
-    padding: 4rem 6rem;
+    height: 30rem;
+    padding: 4rem 7rem;
 }
 
 header #hello-text {
-    padding-top: 1rem;
+    padding-top: 3.5rem;
 }
 
 header h1 {
