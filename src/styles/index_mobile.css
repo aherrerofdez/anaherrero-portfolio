@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'futurabold_italic';
+    src: url('../fonts/futura_bold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/futura_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraextra_black_italic';
+    src: url('../fonts/futura_extra_black_italic-webfont.woff2') format('woff2'),
+         url('../fonts/futura_extra_black_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraextra_black';
+    src: url('../fonts/futura_extra_black-webfont.woff2') format('woff2'),
+         url('../fonts/futura_extra_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraheavy_italic';
+    src: url('../fonts/futura_heavy_italic-webfont.woff2') format('woff2'),
+         url('../fonts/futura_heavy_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraheavy';
+    src: url('../fonts/futura_heavy-webfont.woff2') format('woff2'),
+         url('../fonts/futura_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurabook_italic';
+    src: url('../fonts/futura_italic-webfont.woff2') format('woff2'),
+         url('../fonts/futura_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuralight_italic';
+    src: url('../fonts/futura_light_italic-webfont.woff2') format('woff2'),
+         url('../fonts/futura_light_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuralight';
+    src: url('../fonts/futura_light-webfont.woff2') format('woff2'),
+         url('../fonts/futura_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramedium_italic';
+    src: url('../fonts/futura_medium_italic-webfont.woff2') format('woff2'),
+         url('../fonts/futura_medium_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('../fonts/futura_medium-webfont.woff2') format('woff2'),
+         url('../fonts/futura_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurabook';
+    src: url('../fonts/futura-webfont.woff2') format('woff2'),
+         url('../fonts/futura-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --primary_color_800: #033899;
+    --primary_color_100: #C2CBEA;
+    --primary_color_200: #9AA9DC;
+    --primary_color_50: #E7EAF7;
+    --secondary_color_600: #E8B311;
+}
+
+body {
+    font-family: 'futurabook', sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--primary_color_50);
+    margin: 0;
+}
+
+#navbar {
+    background-color: var(--primary_color_100);
+    height: 4.5rem;
+    clear: both;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0em 2px 5px var(--primary_color_200);
+}
+
+#logo {
+    float: left;
+    margin-left: 2rem;
+}
+
+#logo button, img{
+    max-height: 3.25rem;
+    padding: 0 1rem;
+    margin-top: 0;
+}
+
+#logo button, nav ul li a button {
+    box-shadow: 4px 4px var(--primary_color_200);
+    margin-top: 0.5rem;
+}
+
+#logo button:hover, nav ul li a button:hover {
+    background-color: var(--primary_color_50);
+    box-shadow: 4px 4px var(--primary_color_800);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin: 0;
+}
+
+nav ul li a {
+    margin-right: 2rem;
+}
+
+header, #contact {
+    font-family: 'futurabook', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
+header {
+    margin: 4rem 0;
+}
+  
+.header-cell {
+    height: 30rem;
+    margin-top: 4rem;
+}
+
+#header-text {
+    padding-top: 7.5rem;
+    padding-left: 6rem;
+}
+
+#header-text p {
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    color: var(--primary_color_800);
+    font-family: 'futuraheavy', sans-serif;
+    font-size: 5rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h2 {
+    font-family: 'futuraheavy', sans-serif;
+    font-size: 2rem;
+}
+
+header .role {
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+    color: var(--secondary_color_600);
+}
+
+header img, .contact-cell img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#headshot-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    text-align: center;
+}
+
+.contact-cell {
+    height: 20rem;
+    background-color: var(--primary_color_800);
+}
+
+#headshot-contact {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 4rem;
+}
+
+#contact-text {
+    text-align: left;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    height: 19rem;
+    color: var(--primary_color_50)
+}
+
+#contact-text i {
+    vertical-align: middle;
+}
+
+#contact-text a {
+    color: var(--primary_color_50);
+}
+
+button {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_50);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'futuraheavy', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px var(--secondary_color_600);
+}
+
+button:hover {
+    background-color: var(--secondary_color_600);
+    box-shadow: 4px 4px var(--primary_color_50);
+}
+
+button:active {
+    background-color: var(--secondary_color_600);
+    box-shadow: 4px 4px var(--primary_color_50);
+    transform: translateY(4px);
+}
+
+footer {
+    background-color: var(--primary_color_50);
+    color: var(--primary_color_800);
+    text-align: center;
+    font-size: small;
+}

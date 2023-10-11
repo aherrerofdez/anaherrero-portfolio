@@ -160,15 +160,22 @@ header {
 }
 
 #header-text {
-    padding-top: 8rem;
+    padding-top: 7.5rem;
     padding-left: 6rem;
-    line-height: 0.5rem;
+}
+
+#header-text p {
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 h1 {
     color: var(--primary_color_800);
     font-family: 'futuraheavy', sans-serif;
     font-size: 5rem;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 h2 {
@@ -177,7 +184,7 @@ h2 {
 }
 
 header .role {
-    padding-top: 4rem;
+    padding-top: 0.5rem;
     margin-bottom: 3rem;
     color: var(--secondary_color_600);
 }
