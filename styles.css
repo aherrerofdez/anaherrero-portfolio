@@ -98,15 +98,32 @@ body {
     margin: 0;
 }
 
-nav {
+#navbar {
     background-color: var(--primary_color_800);
+    height: 4.5rem;
+    clear: both;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0em 2px 5px var(--primary_color_800);
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    width: 30%;
+    padding-top: 0.3rem;
+    margin-left: 1rem;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 1rem 0;
+    float: right;
+    padding-top: 1.25rem;
     margin: 0;
 }
 
@@ -118,62 +135,99 @@ nav ul li a {
     color: var(--primary_color_50);
 }
 
-header {
-    font-family: 'futuramedium', sans-serif;
+header, #contact {
+    font-family: 'futurabook', sans-serif;
     display: grid;
-    margin: 2rem 0;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
+header {
+    margin: 4rem 0;
 }
   
 .header-cell {
     height: 30rem;
-    padding: 4rem 7rem;
+    margin-top: 4rem;
 }
 
-header #hello-text {
-    padding-top: 3.5rem;
+#header-text {
+    padding-top: 4rem;
+    padding-left: 6rem;
 }
 
-header h1 {
+h1 {
     color: var(--primary_color_800);
     font-family: 'futuraheavy', sans-serif;
     font-size: 4rem;
 }
 
-header .role {
+h2 {
     font-family: 'futuraheavy', sans-serif;
     font-size: 2rem;
-    margin-bottom: 3rem;
 }
 
-header img {
+header .role {
+    margin-bottom: 3rem;
+    color: #E8B311;
+}
+
+header img, .contact-cell img {
     max-width: 100%;
     max-height: 100%;
 }
 
-#headshot {
+#headshot-main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 section {
-    padding: 50px 0;
     text-align: center;
 }
 
-.project {
-    margin: 20px;
+.contact-cell {
+    height: 20rem;
+    background-color: var(--primary_color_800);
 }
 
-.project img {
-    max-width: 100%;
-    height: auto;
+#headshot-contact {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 4rem;
+}
+
+#contact-text {
+    text-align: left;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    height: 19rem;
+    color: var(--primary_color_50)
+}
+
+#contact-text i {
+    vertical-align: middle;
+}
+
+#contact-text a {
+    color: var(--primary_color_50);
+}
+
+button {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_50);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px #E8B311;
 }
 
 footer {
-    background-color: var(--primary_color_800);
-    color: var(--primary_color_50);
+    background-color: var(--primary_color_50);
+    color: var(--primary_color_800);
     text-align: center;
-    padding: 20px 0;
+    font-size: small;
 }
