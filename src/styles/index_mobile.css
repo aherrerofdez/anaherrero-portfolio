@@ -87,7 +87,7 @@
 }
 
 :root {
-    --primary_color_800: #033899;
+    --primary_color_800: #002684;
     --primary_color_100: #C2CBEA;
     --primary_color_200: #9AA9DC;
     --primary_color_50: #E7EAF7;
@@ -96,7 +96,7 @@
 
 body {
     font-family: 'futurabook', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: var(--primary_color_50);
     margin: 0;
 }
@@ -107,13 +107,12 @@ body {
     clear: both;
     position: fixed;
     top: 0;
-    width: 100%;
     box-shadow: 0em 2px 5px var(--primary_color_200);
 }
 
 #logo {
     float: left;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 #logo button, img{
@@ -122,46 +121,27 @@ body {
     margin-top: 0;
 }
 
-#logo button, nav ul li a button {
+#logo button {
     box-shadow: 4px 4px var(--primary_color_200);
     margin-top: 0.5rem;
 }
 
-#logo button:hover, nav ul li a button:hover {
+#navbar {
+    visibility: hidden;
+}
+
+#logo button:hover {
     background-color: var(--primary_color_50);
     box-shadow: 4px 4px var(--primary_color_800);
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    float: right;
-    margin: 0;
-}
-
-nav ul li a {
-    margin-right: 2rem;
-}
-
 header, #contact {
     font-family: 'futurabook', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-}
-
-header {
-    margin: 4rem 0;
-}
-  
-.header-cell {
-    height: 30rem;
-    margin-top: 4rem;
 }
 
 #header-text {
-    padding-top: 7.5rem;
-    padding-left: 6rem;
+    padding-top: 7rem;
+    padding-left: 2rem;
 }
 
 #header-text p {
@@ -185,27 +165,23 @@ h2 {
 
 header .role {
     padding-top: 0.5rem;
-    margin-bottom: 3rem;
     color: var(--secondary_color_600);
-}
-
-header img, .contact-cell img {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 #headshot-main {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
-section {
-    text-align: center;
+header img, .contact-cell img {
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .contact-cell {
-    height: 20rem;
     background-color: var(--primary_color_800);
 }
 
@@ -213,14 +189,11 @@ section {
     display: flex;
     align-items: right;
     justify-content: right;
-    padding-right: 4rem;
 }
 
 #contact-text {
-    text-align: left;
-    padding-left: 5rem;
+    text-align: center;
     padding-top: 1rem;
-    height: 19rem;
     color: var(--primary_color_50)
 }
 

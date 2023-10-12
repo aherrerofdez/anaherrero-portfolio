@@ -87,11 +87,26 @@
 }
 
 :root {
-    --primary_color_800: #033899;
-    --primary_color_100: #C2CBEA;
-    --primary_color_200: #9AA9DC;
-    --primary_color_50: #E7EAF7;
-    --secondary_color_600: #E8B311;
+    --primary_color_50: #e7e9f0;
+    --primary_color_100: #c1c8db;
+    --primary_color_200: #9aa5c2;
+    --primary_color_300: #7482a9;
+    --primary_color_400: #576898;
+    --primary_color_500: #3a4f88;
+    --primary_color_600: #344780;
+    --primary_color_700: #2c3e75;
+    --primary_color_800: #253568;
+    --primary_color_900: #1b2550;
+    --secondary_color_50: #efe4ef;
+    --secondary_color_100: #d8bcd8;
+    --secondary_color_200: #bf91bf;
+    --secondary_color_300: #a669a5;
+    --secondary_color_400: #934c92;
+    --secondary_color_500: #813581;
+    --secondary_color_600: #76307b;
+    --secondary_color_700: #672a72;
+    --secondary_color_800: #582568;
+    --secondary_color_800: #3f1d55;
 }
 
 body {
@@ -171,7 +186,7 @@ header {
 }
 
 h1 {
-    color: var(--primary_color_800);
+    color: var(--primary_color_900);
     font-family: 'futuraheavy', sans-serif;
     font-size: 5rem;
     margin-top: 0;
@@ -186,7 +201,7 @@ h2 {
 header .role {
     padding-top: 0.5rem;
     margin-bottom: 3rem;
-    color: var(--secondary_color_600);
+    color: var(--secondary_color_400);
 }
 
 header img, .contact-cell img {
@@ -241,16 +256,18 @@ button {
     font-family: 'futuraheavy', sans-serif;
     border: none;
     border-radius: 10px;
-    box-shadow: 4px 4px var(--secondary_color_600);
+    box-shadow: 4px 4px var(--secondary_color_200);
 }
 
 button:hover {
-    background-color: var(--secondary_color_600);
+    color: var(--primary_color_900);
+    background-color: var(--secondary_color_200);
     box-shadow: 4px 4px var(--primary_color_50);
 }
 
 button:active {
-    background-color: var(--secondary_color_600);
+    color: var(--primary_color_900);
+    background-color: var(--secondary_color_200);
     box-shadow: 4px 4px var(--primary_color_50);
     transform: translateY(4px);
 }

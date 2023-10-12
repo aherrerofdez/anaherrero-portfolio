@@ -50,6 +50,6 @@ window.onload = function() {
     }
     // INJECT CSS
     var css = document.createElement("style");
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.2em solid #E8B311}";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.2em solid #934C92}";
     document.body.appendChild(css);
 };
