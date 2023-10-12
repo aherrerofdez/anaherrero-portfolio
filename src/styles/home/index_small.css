@@ -118,7 +118,7 @@ body {
 
 #navbar {
     background-color: var(--primary_color_100);
-    height: 4.5rem;
+    height: 5.5rem;
     clear: both;
     position: fixed;
     top: 0;
@@ -128,14 +128,29 @@ body {
 
 #logo {
     float: left;
+    margin-left: 1rem;
 }
 
-#logo button, img{
+#logo button, #logo img {
     max-height: 3.25rem;
+}
+
+#logo img {
+    margin-top: 0;
+}
+
+#logo button {
+    margin-top: 1rem;
+    padding: 0 1rem;
 }
 
 #logo button, nav ul li a button {
     box-shadow: 4px 4px var(--primary_color_200);
+}
+
+nav ul li a button {
+    margin-top: 0;
+    padding: 0.5rem 1rem;
 }
 
 #logo button:hover, nav ul li a button:hover {
@@ -150,18 +165,34 @@ nav ul {
     float: right;
 }
 
+nav ul li a {
+    margin-right: 1rem;
+}
+
+#home-link {
+    display: none;
+}
+
 header, #contact {
     font-family: 'futurabook', sans-serif;
 }
 
+#header-text {
+    padding: 7rem 3rem 3rem;
+}
+
 #header-text p {
     line-height: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 h1 {
     color: var(--primary_color_900);
     font-family: 'futuraheavy', sans-serif;
     font-size: 5rem;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 h2 {
@@ -171,6 +202,7 @@ h2 {
 
 header .role {
     color: var(--secondary_color_400);
+
 }
 
 header img, .contact-cell img {
@@ -182,6 +214,7 @@ header img, .contact-cell img {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 2rem 5rem;
 }
 
 section {
@@ -196,9 +229,11 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem 2rem 0;
 }
 
 #contact-text {
+    padding-top: 0.25rem;
     text-align: center;
     color: var(--primary_color_50)
 }
@@ -218,6 +253,8 @@ section {
 button {
     color: var(--primary_color_800);
     background-color: var(--primary_color_50);
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
     font-size: 1rem;
     font-family: 'futuraheavy', sans-serif;
     border: none;
