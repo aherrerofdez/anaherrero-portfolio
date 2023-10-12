@@ -118,7 +118,7 @@ body {
 
 #navbar {
     background-color: var(--primary_color_100);
-    height: 5.5rem;
+    height: 5.25rem;
     clear: both;
     position: fixed;
     top: 0;
