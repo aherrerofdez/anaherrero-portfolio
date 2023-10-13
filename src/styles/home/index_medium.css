@@ -175,7 +175,7 @@ header {
 }
 
 #header-text {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     padding-left: 3rem;
     padding-right: 2rem;
 }
@@ -216,7 +216,7 @@ header img, .contact-cell img {
 }
 
 #headshot-main {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
     padding-left: 2rem;
     padding-right: 3rem;
     display: flex;
