@@ -195,16 +195,16 @@ h1 {
 
 h2 {
     font-family: 'futuraheavy', sans-serif;
-    font-size: 2rem;
+    font-size: 1.65rem;
 }
 
 #header-text h2 {
     padding-left: 0.13rem;
+    height: 3rem;
 }
 
 header .role {
     color: var(--secondary_color_400);
-
 }
 
 header img, .contact-cell img {

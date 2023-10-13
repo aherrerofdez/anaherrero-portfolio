@@ -111,7 +111,7 @@
 
 body {
     font-family: 'futurabook', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.05rem;
     background-color: var(--primary_color_50);
     margin: 0;
 }
@@ -128,10 +128,10 @@ body {
 
 #logo {
     float: left;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
-#logo button, img{
+#logo button, #logo img {
     max-height: 3.25rem;
     padding: 0 1rem;
     margin-top: 0;
@@ -156,7 +156,7 @@ nav ul {
 }
 
 nav ul li a {
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 header, #contact {
@@ -170,46 +170,55 @@ header {
 }
   
 .header-cell {
-    height: 30rem;
     margin-top: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 #header-text {
-    padding-top: 7.5rem;
-    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
 }
 
 #header-text p {
     line-height: 1.5rem;
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-left: 0.21rem;
 }
 
 h1 {
     color: var(--primary_color_900);
     font-family: 'futuraheavy', sans-serif;
     font-size: 5rem;
-    margin-top: 0;
+    margin: 0;
     padding-top: 0;
 }
 
 h2 {
     font-family: 'futuraheavy', sans-serif;
-    font-size: 2rem;
+    font-size: 1.47rem;
+}
+
+#header-text h2 {
+    padding-left: 0.21rem;
+    height: 2rem;
 }
 
 header .role {
-    padding-top: 0.5rem;
     margin-bottom: 3rem;
     color: var(--secondary_color_400);
 }
 
 header img, .contact-cell img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 95%;
+    max-height: 95%;
 }
 
 #headshot-main {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,22 +229,23 @@ section {
 }
 
 .contact-cell {
-    height: 20rem;
+    height: 17rem;
     background-color: var(--primary_color_800);
 }
 
 #headshot-contact {
     display: flex;
-    align-items: right;
-    justify-content: right;
-    padding-right: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
 }
 
 #contact-text {
     text-align: left;
-    padding-left: 5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
     padding-top: 1rem;
-    height: 19rem;
+    height: 16rem;
     color: var(--primary_color_50)
 }
 
@@ -252,7 +262,7 @@ button {
     background-color: var(--primary_color_50);
     padding: 1rem 2rem;
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-family: 'futuraheavy', sans-serif;
     border: none;
     border-radius: 10px;
