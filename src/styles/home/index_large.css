@@ -233,6 +233,7 @@ header img, .contact-cell img {
     padding: 0 6rem 4rem;
     font-family: 'futurabook', sans-serif;
     font-size: 1.25rem;
+    line-height: 1.6;
 }
 
 .contact-cell {
