@@ -188,7 +188,7 @@ header {
 }
 
 h1 {
-    color: var(--primary_color_900);
+    color: var(--primary_color_800);
     font-family: 'futuraheavy', sans-serif;
     font-size: 5rem;
     margin: 0;
@@ -198,6 +198,7 @@ h1 {
 h2 {
     font-family: 'futuraheavy', sans-serif;
     font-size: 1.47rem;
+    color: var(--primary_color_800)
 }
 
 #header-text h2 {
@@ -224,8 +225,14 @@ header img, .contact-cell img {
     justify-content: center;
 }
 
-section {
+#about h2{
     text-align: center;
+}
+
+#about p {
+    padding: 0 3.5rem 2rem;
+    font-family: 'futuralight', sans-serif;
+    font-size: 1rem;
 }
 
 .contact-cell {
@@ -249,8 +256,16 @@ section {
     color: var(--primary_color_50)
 }
 
+#contact-text h2 {
+    color: var(--primary_color_50)
+}
+
 #contact-text i {
     vertical-align: middle;
+}
+
+#li-icon {
+    font-size: 1.2rem;
 }
 
 #contact-text a {

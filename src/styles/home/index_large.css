@@ -166,7 +166,7 @@ header, #contact {
 }
 
 header {
-    margin: 5rem 0;
+    margin: 7rem 0 3rem;
 }
   
 .header-cell {
@@ -188,7 +188,7 @@ header {
 }
 
 h1 {
-    color: var(--primary_color_900);
+    color: var(--primary_color_800);
     font-family: 'futuraheavy', sans-serif;
     font-size: 5rem;
     margin-top: 0;
@@ -198,6 +198,7 @@ h1 {
 h2 {
     font-family: 'futuraheavy', sans-serif;
     font-size: 2rem;
+    color: var(--primary_color_800)
 }
 
 #header-text h2 {
@@ -224,8 +225,14 @@ header img, .contact-cell img {
     padding-right: 3rem;
 }
 
-section {
+#about h2{
     text-align: center;
+}
+
+#about p {
+    padding: 0 6rem 4rem;
+    font-family: 'futuralight', sans-serif;
+    font-size: 1.25rem;
 }
 
 .contact-cell {
@@ -248,8 +255,16 @@ section {
     color: var(--primary_color_50)
 }
 
+#contact-text h2 {
+    color: var(--primary_color_50)
+}
+
 #contact-text i {
     vertical-align: middle;
+}
+
+#li-icon {
+    font-size: 1.7rem;
 }
 
 #contact-text a {
