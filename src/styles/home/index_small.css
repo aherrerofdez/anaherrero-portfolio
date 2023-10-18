@@ -118,7 +118,7 @@ body {
 
 #navbar {
     background-color: var(--primary_color_100);
-    height: 5.25rem;
+    height: 4.25rem;
     clear: both;
     position: fixed;
     top: 0;
@@ -131,26 +131,24 @@ body {
     margin-left: 1rem;
 }
 
-#logo button, #logo img {
-    max-height: 3.25rem;
+#logo button {
+    padding: 0 0.75rem;
 }
 
 #logo img {
-    margin-top: 0;
-}
-
-#logo button {
-    margin-top: 1rem;
-    padding: 0 1rem;
+    max-height: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 #logo button, nav ul li a button {
     box-shadow: 4px 4px var(--primary_color_200);
+    height: 2.25rem;
+    margin-top: 1rem;
 }
 
 nav ul li a button {
-    margin-top: 0.5rem;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     padding: 0.5rem 1rem;
 }
 
@@ -164,10 +162,8 @@ nav ul {
     display: flex;
     justify-content: center;
     float: right;
-}
-
-#home-link {
-    display: none;
+    padding: 0;
+    margin: 0;
 }
 
 header, #contact {
@@ -175,7 +171,7 @@ header, #contact {
 }
 
 #header-text {
-    padding: 7rem 3rem 3rem;
+    padding: 6rem 3rem 3rem;
 }
 
 #header-text p {
@@ -217,10 +213,12 @@ header img, .contact-cell img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 2rem 5rem;
+    padding: 0 2rem;
 }
 
-#about h2{
+#about h2 {
+    margin-top: 0;
+    padding-top: 6.5rem;
     text-align: center;
 }
 

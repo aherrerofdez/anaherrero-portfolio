@@ -131,15 +131,25 @@ body {
     margin-left: 1rem;
 }
 
-#logo button, #logo img {
-    max-height: 3.25rem;
+#logo button {
     padding: 0 1rem;
-    margin-top: 0;
+}
+
+#logo img {
+    max-height: 2.75rem;
+    display: flex;
+    justify-content: center;
 }
 
 #logo button, nav ul li a button {
+    height: 3rem;
     box-shadow: 4px 4px var(--primary_color_200);
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+nav ul li a button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 #logo button:hover, nav ul li a button:hover {
@@ -155,10 +165,6 @@ nav ul {
     margin: 0;
 }
 
-nav ul li a {
-    margin-right: 1rem;
-}
-
 header, #contact {
     font-family: 'futurabook', sans-serif;
     display: grid;
@@ -166,12 +172,11 @@ header, #contact {
 }
 
 header {
-    margin: 4rem 0;
+    margin: 3rem 0 2em;
 }
   
 .header-cell {
     margin-top: 4rem;
-    margin-bottom: 2.5rem;
 }
 
 #header-text {
@@ -225,7 +230,9 @@ header img, .contact-cell img {
     justify-content: center;
 }
 
-#about h2{
+#about h2 {
+    margin-top: 0;
+    padding-top: 6.5rem;
     text-align: center;
 }
 
