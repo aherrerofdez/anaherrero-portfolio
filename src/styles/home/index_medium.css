@@ -234,6 +234,7 @@ header img, .contact-cell img {
     font-family: 'futurabook', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;
+    color: var(--primary_color_900)
 }
 
 .contact-cell {
