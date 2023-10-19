@@ -136,7 +136,7 @@ body {
 }
 
 #logo img {
-    max-height: 3rem;
+    max-height: 2.75rem;
     display: flex;
     justify-content: center;
 }
