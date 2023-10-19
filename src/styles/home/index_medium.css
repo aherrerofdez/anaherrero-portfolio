@@ -172,7 +172,7 @@ header, #contact {
 }
 
 header {
-    margin: 3rem 0 2em;
+    margin: 3rem 0 0;
 }
   
 .header-cell {
@@ -208,11 +208,9 @@ h2 {
 
 #header-text h2 {
     padding-left: 0.21rem;
-    height: 2rem;
 }
 
 header .role {
-    margin-bottom: 3rem;
     color: var(--secondary_color_400);
 }
 
