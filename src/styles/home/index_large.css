@@ -249,6 +249,33 @@ header img, .contact-cell img {
     color: var(--primary_color_900)
 }
 
+#values {
+    padding-bottom: 4rem;
+}
+
+#values h2 {
+    text-align: center;
+}
+
+#values blockquote, #values p {
+    padding: 0 7rem;
+    font-family: 'futurabook', sans-serif;
+    line-height: 1.6;
+    color: var(--primary_color_900)
+}
+
+#values blockquote {
+    margin: 2rem 2rem 1rem;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#values p {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
 .contact-cell {
     height: 21rem;
     background-color: var(--primary_color_800);
