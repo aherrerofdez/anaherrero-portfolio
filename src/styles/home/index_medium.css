@@ -133,6 +133,14 @@ body {
     margin-left: 1rem;
 }
 
+button {
+    padding: 1rem 2rem;
+    font-size: 1.15rem;
+    font-family: 'futuraheavy', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
 #logo button {
     padding: 0 1rem;
 }
@@ -146,12 +154,14 @@ body {
 #logo button, nav ul li a button {
     height: 3rem;
     box-shadow: 4px 4px var(--primary_color_200);
+    background-color: var(--primary_color_50);
     margin-top: 0.75rem;
 }
 
 nav ul li a button {
     margin-right: 1rem;
     padding: 0.5rem 1rem;
+    color: var(--primary_color_800);
 }
 
 #logo button:hover, nav ul li a button:hover {
@@ -237,7 +247,7 @@ header img, .contact-cell img {
 }
 
 #about p {
-    padding: 0 3.5rem;
+    padding: 0 3.5rem 1.5rem;
     font-family: 'futurabook', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;
@@ -253,24 +263,19 @@ header img, .contact-cell img {
 #about-btn {
     color: var(--primary_color_50);
     background-color: var(--primary_color_800);
-    padding: 1rem 2rem;
-    font-size: 1.15rem;
-    font-family: 'futuraheavy', sans-serif;
-    border: none;
-    border-radius: 10px;
     box-shadow: 4px 4px var(--secondary_color_200);
 }
 
 #about-btn:hover {
     color: var(--primary_color_800);
     background-color: var(--primary_color_100);
-    box-shadow: 4px 4px var(--secondary_color_200);
+    box-shadow: 4px 4px var(--secondary_color_400);
 }
 
 #about-btn:active {
     color: var(--primary_color_800);
     background-color: var(--primary_color_100);
-    box-shadow: 4px 4px var(--secondary_color_200);
+    box-shadow: 4px 4px var(--secondary_color_400);
     transform: translateY(4px);
 }
 
@@ -338,25 +343,20 @@ header img, .contact-cell img {
     color: var(--primary_color_50);
 }
 
-button {
+#contact-btn {
     color: var(--primary_color_800);
     background-color: var(--primary_color_50);
-    padding: 1rem 2rem;
     margin-top: 1rem;
-    font-size: 1.15rem;
-    font-family: 'futuraheavy', sans-serif;
-    border: none;
-    border-radius: 10px;
     box-shadow: 4px 4px var(--secondary_color_200);
 }
 
-button:hover {
+#contact-btn:hover {
     color: var(--primary_color_900);
     background-color: var(--secondary_color_200);
     box-shadow: 4px 4px var(--primary_color_50);
 }
 
-button:active {
+#contact-btn:active {
     color: var(--primary_color_900);
     background-color: var(--secondary_color_200);
     box-shadow: 4px 4px var(--primary_color_50);

@@ -165,6 +165,7 @@ nav ul li a button {
 
 #logo button:hover, nav ul li a button:hover {
     box-shadow: 4px 4px var(--primary_color_800);
+    background-color: var(--primary_color_50);
 }
 
 nav ul {
@@ -253,7 +254,7 @@ header img, .contact-cell img {
 }
 
 #about p {
-    padding: 0 6rem 1rem;
+    padding: 0 6rem 2rem;
     font-family: 'futurabook', sans-serif;
     font-size: 1.25rem;
     line-height: 1.6;
@@ -348,13 +349,6 @@ header img, .contact-cell img {
     color: var(--primary_color_50);
 }
 
-footer {
-    background-color: var(--primary_color_50);
-    color: var(--primary_color_800);
-    text-align: center;
-    font-size: 1rem;
-}
-
 #contact-btn {
     color: var(--primary_color_800);
     background-color: var(--primary_color_50);
@@ -373,4 +367,11 @@ footer {
     background-color: var(--secondary_color_200);
     box-shadow: 4px 4px var(--primary_color_50);
     transform: translateY(4px);
+}
+
+footer {
+    background-color: var(--primary_color_50);
+    color: var(--primary_color_800);
+    text-align: center;
+    font-size: 1rem;
 }
