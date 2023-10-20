@@ -237,11 +237,41 @@ header img, .contact-cell img {
 }
 
 #about p {
-    padding: 0 3.5rem 2rem;
+    padding: 0 3.5rem;
     font-family: 'futurabook', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;
     color: var(--primary_color_900)
+}
+
+.center-btn {
+    padding-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#about-btn {
+    color: var(--primary_color_50);
+    background-color: var(--primary_color_800);
+    padding: 1rem 2rem;
+    font-size: 1.15rem;
+    font-family: 'futuraheavy', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px var(--secondary_color_200);
+}
+
+#about-btn:hover {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_200);
+}
+
+#about-btn:active {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_200);
+    transform: translateY(4px);
 }
 
 #values {
