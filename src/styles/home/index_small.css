@@ -372,6 +372,6 @@ footer p {
     padding: 0.25rem 0 1rem;
 }
 
-#credits a:visited {
+#credits a, #credits a:visited {
     color: var(--primary_color_800);
 }
