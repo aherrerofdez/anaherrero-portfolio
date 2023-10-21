@@ -191,7 +191,8 @@ h2 {
 }
 
 #about p {
-    padding: 0 2rem 1rem;
+    padding: 0 2rem;
+    margin-bottom: 0;
     font-family: 'futurabook', sans-serif;
     font-size: 1.1rem;
     line-height: 1.6;
@@ -199,7 +200,7 @@ h2 {
 }
 
 .center-btn {
-    padding-bottom: 3rem;
+    padding: 7rem 0 3rem;
     display: flex;
     justify-content: center;
 }
