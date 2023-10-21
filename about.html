@@ -1,7 +1,3 @@
-<!-- TO-DO: Add Long Description -->
-<!-- TO-DO: Add Pictures -->
-<!-- TO-DO: Add Downloadable CV -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +6,9 @@
     <title>Ana Herrero</title>
     <link rel="icon" type="image/x-icon" href="src/images/logo_favicon.ico">
     <link rel="stylesheet" href="src/styles/index.css">
-    <link rel="stylesheet" media="screen and (max-width: 640px)" href="src/styles/home/index_small.css" />
-    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" href="src/styles/home/index_medium.css" />
-    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="src/styles/home/index_large.css" />
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="src/styles/about/about_small.css" />
+    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" href="src/styles/about/about_medium.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="src/styles/about/about_large.css" />
     <script src="https://kit.fontawesome.com/c9fd99d1ab.js" crossorigin="anonymous"></script>
     <script src="src/scripts/index.js"></script>
 </head>
@@ -26,6 +22,7 @@
         </a>
         <nav>
             <ul>
+                <li><a href="#cv"><button type="button" class="navbar-button">View CV</button></a></li>
                 <li><a href="#contact"><button type="button" class="navbar-button">Connect</button></a></li>
             </ul>
         </nav>
@@ -33,8 +30,8 @@
 
      <!-- About Me Section -->
      <section id="about">
-        <h2>GET TO KNOW ME</h2>
-        <!-- TO-DO: Add Long Description -->
+        <h2>MORE ABOUT ME</h2>
+        <!-- TO-DO: Add Illustrations to text -->
         <p>
             Hey there! I'm a passionate builder, from designing interfaces and writing code to DIY-ing around the house. I grew 
             up in Segovia, a historic city in Spain. Therefore, I am a native speaker of Spanish and I've been using English as 
@@ -81,8 +78,21 @@
         </p>
     </section>
 
-    <!-- TO-DO: Add Pictures -->
+    <!-- TO-DO: Add Pictures Showcase Section -->
+
     <!-- TO-DO: Add Downloadable CV -->
+    <!-- TO-DO: Update CV -->
+    <!-- TO-DO: Add CSS to when clicked on navbar -->
+    <section id="cv">
+        <div class="center-btn">
+            <a href="/about">
+                <button type="button" id="about-btn">
+                    Download CV&nbsp;
+                    <i class="fas fa-file" style="vertical-align: center;"></i>
+                </button>
+            </a>
+        </div>
+    </section>
     
     <!-- Contact Section -->
     <section id="contact">

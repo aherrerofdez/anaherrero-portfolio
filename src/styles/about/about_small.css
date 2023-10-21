@@ -133,6 +133,14 @@ body {
     margin-left: 1rem;
 }
 
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-family: 'futuraheavy', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
 #logo button {
     padding: 0 0.75rem;
 }
@@ -147,11 +155,13 @@ body {
     box-shadow: 4px 4px var(--primary_color_200);
     height: 2.25rem;
     margin-top: 1rem;
+    background-color: var(--primary_color_50);
 }
 
 nav ul li a button {
     margin-right: 1rem;
     padding: 0.5rem 1rem;
+    color: var(--primary_color_800);
 }
 
 #logo button:hover, nav ul li a button:hover {
@@ -168,54 +178,10 @@ nav ul {
     margin: 0;
 }
 
-header, #contact {
-    font-family: 'futurabook', sans-serif;
-}
-
-#header-text {
-    padding: 6rem 3rem 3rem;
-}
-
-#header-text p {
-    line-height: 1.5rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-left: 0.17rem;
-}
-
-h1 {
-    color: var(--primary_color_800);
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 3.75rem;
-    margin-top: 0;
-    padding-top: 0;
-}
-
 h2 {
     font-family: 'futuraheavy', sans-serif;
     font-size: 1.65rem;
     color: var(--primary_color_800)
-}
-
-#header-text h2 {
-    padding-left: 0.13rem;
-    height: 3rem;
-}
-
-header .role {
-    color: var(--secondary_color_400);
-}
-
-header img, .contact-cell img {
-    max-width: 80%;
-    max-height: 80%;
-}
-
-#headshot-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 2rem;
 }
 
 #about h2 {
@@ -225,42 +191,49 @@ header img, .contact-cell img {
 }
 
 #about p {
-    padding: 0 2rem 1.5rem;
+    padding: 0 2rem;
     font-family: 'futurabook', sans-serif;
     font-size: 1.1rem;
     line-height: 1.6;
     color: var(--primary_color_900)
 }
 
-#values {
+.center-btn {
     padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
-#values h2 {
-    text-align: center;
+#about-btn {
+    color: var(--primary_color_50);
+    background-color: var(--primary_color_800);
+    box-shadow: 4px 4px var(--secondary_color_200);
 }
 
-#values blockquote, #values p {
-    padding: 0 2rem;
+#about-btn:hover {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_400);
+}
+
+#about-btn:active {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_400);
+    transform: translateY(4px);
+}
+
+#contact {
     font-family: 'futurabook', sans-serif;
-    line-height: 1.6;
-    color: var(--primary_color_900)
-}
-
-#values blockquote {
-    margin: 2rem 2rem 1rem;
-    font-size: 1.3rem;
-    text-align: center;
-}
-
-#values p {
-    margin-top: 0;
-    font-size: 1.2rem;
-    text-align: right;
 }
 
 .contact-cell {
     background-color: var(--primary_color_800);
+}
+
+.contact-cell img {
+    max-width: 80%;
+    max-height: 80%;
 }
 
 #headshot-contact {
@@ -297,25 +270,20 @@ header img, .contact-cell img {
     color: var(--primary_color_50);
 }
 
-button {
+#contact-btn {
     color: var(--primary_color_800);
     background-color: var(--primary_color_50);
-    padding: 1rem 2rem;
     margin-top: 1.5rem;
-    font-size: 1rem;
-    font-family: 'futuraheavy', sans-serif;
-    border: none;
-    border-radius: 10px;
     box-shadow: 4px 4px var(--secondary_color_200);
 }
 
-button:hover {
+#contact-btn:hover {
     color: var(--primary_color_900);
     background-color: var(--secondary_color_200);
     box-shadow: 4px 4px var(--primary_color_50);
 }
 
-button:active {
+#contact-btn:active {
     color: var(--primary_color_900);
     background-color: var(--secondary_color_200);
     box-shadow: 4px 4px var(--primary_color_50);
