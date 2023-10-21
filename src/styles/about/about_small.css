@@ -301,3 +301,16 @@ footer {
     text-align: center;
     font-size: small;
 }
+
+footer p {
+    margin-bottom: 0;
+}
+
+#credits {
+    margin-top: 0;
+    padding: 0.25rem 0 1rem;
+}
+
+#credits a, #credits a:visited {
+    color: var(--primary_color_800);
+}
