@@ -182,7 +182,6 @@ nav ul li a {
 }
 
 header, #contact {
-    font-family: 'futurabook', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -255,14 +254,13 @@ header img, .contact-cell img {
 
 #about p {
     padding: 0 6rem 2rem;
-    font-family: 'futurabook', sans-serif;
     font-size: 1.25rem;
     line-height: 1.6;
     color: var(--primary_color_900)
 }
 
 .center-btn {
-    padding-bottom: 3rem;
+    padding-bottom: 5.5rem;
     display: flex;
     justify-content: center;
 }
@@ -287,7 +285,7 @@ header img, .contact-cell img {
 }
 
 #values {
-    padding-bottom: 4rem;
+    padding-bottom: 5.5rem;
 }
 
 #values h2 {
@@ -296,7 +294,6 @@ header img, .contact-cell img {
 
 #values blockquote, #values p {
     padding: 0 7rem;
-    font-family: 'futurabook', sans-serif;
     line-height: 1.6;
     color: var(--primary_color_900)
 }
