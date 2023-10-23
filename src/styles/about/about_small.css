@@ -200,6 +200,10 @@ h2 {
     padding: 2rem 2rem 0;
 }
 
+.big-screen {
+    display: none;
+}
+
 .illustration {
     max-width: fit-content;
     float: left;

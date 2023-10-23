@@ -205,6 +205,10 @@ h2 {
     padding: 2rem 7.5rem 0;
 }
 
+.small-screen {
+    display: none;
+}
+
 .left {
     grid-column: 1 / 2;
     padding-right: 2rem;
