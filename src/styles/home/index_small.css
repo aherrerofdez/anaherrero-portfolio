@@ -228,8 +228,7 @@ header img, .contact-cell img {
 
 #about h2 {
     margin-top: 0;
-    padding-top: 6.5rem;
-    text-align: center;
+    padding: 6.5rem 2rem 0;
 }
 
 #about p {
@@ -270,7 +269,7 @@ header img, .contact-cell img {
 }
 
 #values h2 {
-    text-align: center;
+    padding: 0 2rem;
 }
 
 #values blockquote, #values p {
@@ -280,9 +279,8 @@ header img, .contact-cell img {
 }
 
 #values blockquote {
-    margin: 2rem 2rem 1rem;
+    margin: 2rem 0 1rem;
     font-size: 1.3rem;
-    text-align: center;
 }
 
 #values p {
