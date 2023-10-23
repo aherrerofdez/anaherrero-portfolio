@@ -113,8 +113,7 @@
 
 body {
     font-family: 'futurabook', sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.6;
+    font-size: 1.5rem;
     background-color: var(--primary_color_50);
     margin: 0;
 }
@@ -196,6 +195,8 @@ h2 {
 
 #about p {
     margin-bottom: 0;
+    font-size: 1.25rem;
+    line-height: 1.6;
     color: var(--primary_color_900)
 }
 
