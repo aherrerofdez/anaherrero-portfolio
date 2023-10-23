@@ -203,20 +203,18 @@ h2 {
     display: none;
 }
 
-.left {
-    padding-right: 2rem;
-}
-
 .illustration {
     max-width: fit-content;
 }
 
 .illustration.left {
     float: left;
+    padding-right: 2rem;
 }
 
 .illustration.right {
     float: right;
+    padding-left: 2rem;
 }
 
 .illustration img {
@@ -231,7 +229,7 @@ h2 {
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem 3.5rem 0;
+    padding: 3rem 2.5rem 0;
 }
 
 .figures {
