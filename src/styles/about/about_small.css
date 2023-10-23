@@ -113,7 +113,7 @@
 
 body {
     font-family: 'futurabook', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background-color: var(--primary_color_50);
     margin: 0;
 }
@@ -185,18 +185,34 @@ h2 {
 }
 
 #about h2 {
-    margin-top: 0;
+    margin: 0;
     padding: 6.5rem 2rem 0;
     text-align: left;
 }
 
 #about p {
-    padding: 0 2rem;
     margin-bottom: 0;
-    font-family: 'futurabook', sans-serif;
-    font-size: 1.1rem;
     line-height: 1.6;
     color: var(--primary_color_900)
+}
+
+.grid-container {
+    padding: 2rem 2rem 0;
+}
+
+.illustration {
+    max-width: fit-content;
+    float: left;
+    padding-right: 1rem;
+}
+
+.illustration img {
+    max-width: 5rem;
+    padding-top: 0.5rem;
+}
+
+.description {
+    margin-top: 0;
 }
 
 .gallery {
@@ -221,6 +237,7 @@ h2 {
 
 .caption {
     margin-top: 0.75rem;
+    padding: 0 2rem;
 }
 
 .center-btn {
@@ -259,6 +276,8 @@ h2 {
 .contact-cell img {
     max-width: 80%;
     max-height: 80%;
+    pointer-events: none;
+    -webkit-touch-callout: none;
 }
 
 #headshot-contact {

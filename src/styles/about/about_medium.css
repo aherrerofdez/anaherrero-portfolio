@@ -184,24 +184,49 @@ h2 {
 }
 
 #about h2 {
-    margin-top: 0;
+    margin: 0;
     padding-top: 6.5rem;
     text-align: center;
 }
 
 #about p {
-    padding: 0 3.5rem;
     margin-bottom: 0;
-    font-family: 'futurabook', sans-serif;
-    font-size: 1.2rem;
     line-height: 1.6;
     color: var(--primary_color_900)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem 3.5rem 0;
+}
+
+.left {
+    grid-column: 1 / 2;
+    padding-right: 2rem;
+}
+
+.right {
+    grid-column: 2 / 3;
+}
+
+.illustration {
+    max-width: fit-content;
+}
+
+.illustration img {
+    max-width: 10rem;
+    padding-top: 0.4rem;
+}
+
+.description {
+    margin-top: 0;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem 2.5rem 0;
+    padding: 3rem 3.5rem 0;
 }
 
 .figures {
@@ -221,6 +246,7 @@ h2 {
 .caption {
     text-align: center;
     margin-top: 0.75rem;
+    padding: 0 3.5rem;
 }
 
 .center-btn {
@@ -249,7 +275,6 @@ h2 {
 }
 
 #contact {
-    font-family: 'futurabook', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -262,6 +287,8 @@ h2 {
 .contact-cell img {
     max-width: 95%;
     max-height: 95%;
+    pointer-events: none;
+    -webkit-touch-callout: none;
 }
 
 #headshot-contact {
