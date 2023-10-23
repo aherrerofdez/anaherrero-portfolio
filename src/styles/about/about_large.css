@@ -212,10 +212,12 @@ h2 {
 .left {
     grid-column: 1 / 2;
     padding-right: 2rem;
+    align-self: center;
 }
 
 .right {
     grid-column: 2 / 3;
+    align-self: center;
 }
 
 .illustration {
@@ -223,7 +225,7 @@ h2 {
 }
 
 .illustration img {
-    max-width: 10rem;
+    max-width: 9rem;
     padding-top: 0.4rem;
 }
 
