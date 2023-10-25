@@ -199,7 +199,7 @@ h1 {
 
 h2 {
     font-family: 'futuraheavy', sans-serif;
-    font-size: 1.65rem;
+    font-size: 1.5rem;
     color: var(--primary_color_800)
 }
 
@@ -268,7 +268,7 @@ header img, .contact-cell img {
     padding-bottom: 4.5rem;
 }
 
-#values h2 {
+#values h2, #skills h2 {
     padding: 0 2rem;
 }
 
@@ -284,9 +284,32 @@ header img, .contact-cell img {
 }
 
 #values p {
-    margin-top: 0;
+    margin: 0;
     font-size: 1.2rem;
     text-align: right;
+}
+
+#skills-container {
+    padding: 0 2rem 4.5rem;
+}
+
+.skill-illustration {
+    display: none;
+}
+
+.skill-set p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+    color: var(--primary_color_900)
+}
+
+h3 {
+    font-family: 'futuraheavy', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary_color_400);
 }
 
 .contact-cell {

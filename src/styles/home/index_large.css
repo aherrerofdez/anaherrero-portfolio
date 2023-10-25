@@ -307,9 +307,58 @@ header img, .contact-cell img {
 }
 
 #values p {
-    margin-top: 0;
+    margin: 0;
     font-size: 1.5rem;
     text-align: right;
+}
+
+#skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 6rem 7.5rem;
+}
+
+.skill-set {
+    text-align: center;
+}
+
+.skill-illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-set img {
+    max-width: 12rem;
+    max-height: 12rem;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+}
+
+.skill-description {
+    max-width: 12rem;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.bigscreen_hidden {
+    display: none;
+}
+
+.skill-set p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0;
+    color: var(--primary_color_900)
+}
+
+h3 {
+    font-family: 'futuraheavy', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 2.25rem 0 1.25rem;
+    color: var(--secondary_color_400);
 }
 
 .contact-cell {

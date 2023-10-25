@@ -249,7 +249,6 @@ header img, .contact-cell img {
 
 #about p {
     padding: 0 3.5rem 1.5rem;
-    font-size: 1.2rem;
     line-height: 1.6;
     color: var(--primary_color_900)
 }
@@ -283,7 +282,7 @@ header img, .contact-cell img {
     padding-bottom: 4.5rem;
 }
 
-#values h2 {
+#values h2, #skills h2 {
     text-align: center;
 }
 
@@ -300,9 +299,57 @@ header img, .contact-cell img {
 }
 
 #values p {
-    margin-top: 0;
+    margin: 0;
     font-size: 1.35rem;
     text-align: right;
+}
+
+#skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 3.5rem 6.5rem;
+}
+
+.skill-set {
+    text-align: center;
+}
+
+.skill-illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-set img {
+    max-width: 8.75rem;
+    max-height: 8.75rem;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+}
+
+.skill-description {
+    max-width: 8.75rem;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.bigscreen_hidden {
+    display: none;
+}
+
+.skill-set p {
+    text-align: left;
+    line-height: 1.6;
+    margin: 0;
+    color: var(--primary_color_900)
+}
+
+h3 {
+    font-family: 'futuraheavy', sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 1.5rem 0 0.85rem;
+    color: var(--secondary_color_400);
 }
 
 .contact-cell {

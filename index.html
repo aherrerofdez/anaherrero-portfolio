@@ -11,6 +11,8 @@
     <script src="https://kit.fontawesome.com/c9fd99d1ab.js" crossorigin="anonymous"></script>
     <script src="src/scripts/index.js"></script>
 </head>
+<!-- TO-DO: Add animations when screen size changes -->
+<!-- TO-DO: Check CSS classes and ids -->
 <body>
     <!-- Navigation -->
     <div id="navbar">
@@ -77,23 +79,40 @@
         <!-- TO-DO: Add Values -->
     </section>
 
-    <!-- TO-DO: Add Skills Section -->
-    <!--
     <section id="skills">
         <h2>WHAT AM I GOOD AT</h2>
-        <p>CODING: Front-end development / Python / Git / HTML+CSS / JavaScript / NLP / SQL / React Native / 
-            Android Studio / REST APIs
-        </p>
-        <p>HCI: Photoshop / InDesign / 
-            Premiere Pro / iMovie / Figma / Adobe Creative Cloud Apps / 
-            Prototyping / Usability Testing / User Research / Interaction Design
-        </p>
-        <p>MANAGEMENT: 
-            Microsoft Office  
-            Notion / Google Workspace / Data Visualization / Project Management / Analytical Skills / Data Analysis / 
-        </p>
+        <div id="skills-container">
+            <div class="skill-set">
+                <div class="skill-illustration">
+                    <img src="src/img/illustrations/skills-development.png" alt="Headshot of Ana Herrero">
+                </div>
+                <div class="skill-description">
+                    <h3><span class="bigscreen_hidden">_</span>DEVELOPMENT</h3>
+                    <p>Python, HTML, CSS, JavaScript, SQL, Rest APIs, Git, NLP, React Native, Android Studio</p>
+                </div>
+            </div>
+            <div class="skill-set">
+                <div class="skill-illustration">
+                    <img src="src/img/illustrations/skills-design.png" alt="Headshot of Ana Herrero">
+                </div>
+                <div class="skill-description">
+                    <h3><span class="bigscreen_hidden">_</span>DESIGN</h3>
+                    <p>Figma, Adobe XD, InDesign, Photoshop, Premiere Pro, iMovie, Prototyping, Interaction Design, Usability 
+                        Testing, User Research</p>
+                </div>
+            </div>
+            <div class="skill-set">
+                <div class="skill-illustration">
+                    <img src="src/img/illustrations/skills-management.png" alt="Headshot of Ana Herrero">
+                </div>
+                <div class="skill-description">
+                    <h3><span class="bigscreen_hidden">_</span>MANAGEMENT</h3>
+                    <p>Problem-solving, Documentation, Market Research, Data Analysis, Data Visualization, Data Modeling, Notion, 
+                        Google Workspace, Microsoft Office</p>
+                </div>
+            </div>  
+        </div>
     </section>
-    -->
     
     <!-- Contact Section -->
     <section id="contact">
