@@ -228,7 +228,7 @@ header img, .contact-cell img {
 
 #about h2 {
     margin-top: 0;
-    padding: 6.5rem 2rem 0;
+    padding: 3.5rem 2rem 0;
 }
 
 #about p {
@@ -240,9 +240,9 @@ header img, .contact-cell img {
 }
 
 .center-btn {
-    padding-bottom: 4.5rem;
+    padding: 0 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #about-btn {
@@ -264,12 +264,9 @@ header img, .contact-cell img {
     transform: translateY(4px);
 }
 
-#values {
-    padding-bottom: 4.5rem;
-}
-
 #values h2, #skills h2 {
-    padding: 0 2rem;
+    padding: 3.5rem 2rem 0;
+    margin: 0;
 }
 
 #values blockquote, #values p {
@@ -279,7 +276,7 @@ header img, .contact-cell img {
 }
 
 #values blockquote {
-    margin: 2rem 0 1rem;
+    margin: 1.75rem 0 1rem;
     font-size: 1.3rem;
 }
 
@@ -290,7 +287,7 @@ header img, .contact-cell img {
 }
 
 #skills-container {
-    padding: 0 2rem 4.5rem;
+    padding: 0 2rem 2.5rem;
 }
 
 .skill-illustration {
