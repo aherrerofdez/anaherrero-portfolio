@@ -149,6 +149,8 @@ button {
     max-height: 2.5rem;
     display: flex;
     justify-content: center;
+    pointer-events: none;
+    -webkit-touch-callout: none;
 }
 
 #logo button, nav ul li a button {

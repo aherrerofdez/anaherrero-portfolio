@@ -149,6 +149,8 @@ button {
     max-height: 2.75rem;
     display: flex;
     justify-content: center;
+    pointer-events: none;
+    -webkit-touch-callout: none;
 }
 
 #logo button, nav ul li a button {
@@ -232,6 +234,8 @@ h2 {
 .illustration img {
     max-width: 9rem;
     padding-top: 0.4rem;
+    pointer-events: none;
+    -webkit-touch-callout: none;
 }
 
 .description {
@@ -303,6 +307,8 @@ h2 {
 .contact-cell img {
     max-width: 95%;
     max-height: 95%;
+    pointer-events: none;
+    -webkit-touch-callout: none;
 }
 
 #headshot-contact {
