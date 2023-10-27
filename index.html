@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Herrero</title>
     <link rel="icon" type="image/x-icon" href="src/img/logo_favicon.ico">
-    <link rel="stylesheet" media="screen and (max-width: 640px)" href="src/styles/home/index_small.css" />
-    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" href="src/styles/home/index_medium.css" />
-    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="src/styles/home/index_large.css" />
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="src/styles/home/index_small.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" href="src/styles/home/index_medium.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="src/styles/home/index_large.css"/>
     <script src="https://kit.fontawesome.com/c9fd99d1ab.js" crossorigin="anonymous"></script>
     <script src="src/scripts/index.js"></script>
 </head>
@@ -16,15 +16,13 @@
 <body>
     <!-- Navigation -->
     <div id="navbar">
-        <a id="logo" href="/">
-            <button type="button">
-                <img src="src/img/logos/logo_primary.png" alt="Logo of Ana Herrero">
-            </button>
+        <a id="logo" href="/" class="button">
+            <img src="src/img/logos/logo_primary.png" alt="Logo of Ana Herrero">
         </a>
         <nav>
             <ul>
-                <li><a href="#about"><button type="button" class="navbar-button">About</button></a></li>
-                <li><a href="#contact"><button type="button" class="navbar-button">Connect</button></a></li>
+                <li><a href="#about" class="button">About</a></li>
+                <li><a href="#contact" class="button">Connect</a></li>
             </ul>
         </nav>
     </div>
@@ -60,11 +58,9 @@
             tennis, hiking, photography, and mystery novels. <br>
         </p>
         <div class="center-btn">
-            <a href="/about">
-                <button type="button" id="about-btn">
-                    More about me!&nbsp;
-                    <i class="fas fa-book-open" style="vertical-align: center;"></i>
-                </button>
+            <a href="/about" class="button" id="about-btn">
+                More about me! &nbsp;
+                <i class="fas fa-book-open"></i>
             </a>
         </div>
     </section>
@@ -131,13 +127,11 @@
             </p>
             <p>
                 <i class="fab fa-linkedin" id="li-icon"></i>
-                <a href="https://www.linkedin.com/in/ana-maria-herrero-fernandez/">ana-maria-herrero-fernandez</a>
+                <a href="https://www.linkedin.com/in/ana-maria-herrero-fernandez/" id="contact-no-btn">ana-maria-herrero-fernandez</a>
             </p>
-            <a href="https://www.buymeacoffee.com/anaherrero">
-                <button type="button" id="contact-btn">
-                    Buy me a coffee!&nbsp;
-                    <i class="fas fa-mug-hot" style="vertical-align: top;"></i>
-                </button>
+            <a href="https://www.buymeacoffee.com/anaherrero" class="button" id="contact-btn">
+                Buy me a coffee! &nbsp;
+                <i class="fas fa-mug-hot"></i>
             </a>
         </div>
     </section>

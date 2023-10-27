@@ -133,42 +133,35 @@ body {
     margin-left: 1rem;
 }
 
-button {
-    padding: 1rem 2rem;
+.button {
+    padding: 0.85rem 1.5rem;
     font-size: 1.15rem;
     font-family: 'futuraheavy', sans-serif;
     border: none;
     border-radius: 10px;
+    box-shadow: 4px 4px var(--primary_color_200);
+    background-color: var(--primary_color_50);
+    color: var(--primary_color_800);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
-#logo button {
-    padding: 0 1rem;
+.button:hover {
+    box-shadow: 4px 4px var(--primary_color_800);
+    background-color: var(--primary_color_50);
+}
+
+#logo.button {
+    padding: 0 1.5rem;
+    margin-top: 0.7rem;
+    height: 3.05rem;
 }
 
 #logo img {
     max-height: 2.5rem;
-    display: flex;
-    justify-content: center;
     pointer-events: none;
     -webkit-touch-callout: none;
-}
-
-#logo button, nav ul li a button {
-    height: 3rem;
-    box-shadow: 4px 4px var(--primary_color_200);
-    background-color: var(--primary_color_50);
-    margin-top: 0.75rem;
-}
-
-nav ul li a button {
-    margin-right: 1rem;
-    padding: 0.5rem 1rem;
-    color: var(--primary_color_800);
-}
-
-#logo button:hover, nav ul li a button:hover {
-    background-color: var(--primary_color_50);
-    box-shadow: 4px 4px var(--primary_color_800);
 }
 
 nav ul {
@@ -177,6 +170,15 @@ nav ul {
     justify-content: center;
     float: right;
     margin: 0;
+}
+
+nav ul li a {
+    margin-right: 1rem;
+    margin-top: 0.7rem;
+}
+
+nav ul li a:visited {
+    color: var(--primary_color_800);
 }
 
 header, #contact {
@@ -379,6 +381,10 @@ h3 {
     color: var(--primary_color_50)
 }
 
+#contact-text p {
+    margin-bottom: 1.3rem;
+}
+
 #contact-text i {
     vertical-align: middle;
 }
@@ -387,14 +393,15 @@ h3 {
     font-size: 1.2rem;
 }
 
-#contact-text a {
+#contact-no-btn:visited {
     color: var(--primary_color_50);
 }
 
 #contact-btn {
     color: var(--primary_color_800);
     background-color: var(--primary_color_50);
-    margin-top: 1rem;
+    margin-top: 2rem;
+    max-width: fit-content;
     box-shadow: 4px 4px var(--secondary_color_200);
 }
 
