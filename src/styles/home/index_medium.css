@@ -393,7 +393,7 @@ h3 {
     font-size: 1.2rem;
 }
 
-#contact-no-btn:visited {
+#contact-no-btn, #contact-no-btn:visited {
     color: var(--primary_color_50);
 }
 
