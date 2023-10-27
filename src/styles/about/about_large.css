@@ -340,7 +340,7 @@ h2 {
     font-size: 1.7rem;
 }
 
-#contact-no-btn:visited {
+#contact-no-btn, #contact-no-btn:visited {
     color: var(--primary_color_50);
 }
 

@@ -321,11 +321,7 @@ h2 {
     font-size: 1rem;
 }
 
-#contact-no-btn {
-    color: var(--primary_color_50);
-}
-
-#contact-no-btn:visited {
+#contact-no-btn, #contact-no-btn:visited {
     color: var(--primary_color_50);
 }
 
