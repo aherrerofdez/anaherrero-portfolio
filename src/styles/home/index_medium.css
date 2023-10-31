@@ -337,10 +337,6 @@ header img, .contact-cell img {
     margin: 0 auto;
 }
 
-.bigscreen_hidden {
-    display: none;
-}
-
 .skill-set p {
     text-align: left;
     line-height: 1.6;
