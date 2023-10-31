@@ -204,6 +204,7 @@ h1 {
 h2 {
     font-family: 'futuraheavy', sans-serif;
     font-size: 1.5rem;
+    margin-top: 0;
     color: var(--primary_color_800)
 }
 
@@ -230,15 +231,18 @@ header img, .contact-cell img {
     padding: 0 2rem;
 }
 
+#about {
+    padding-bottom: 3.5rem;
+    margin: 0;
+}
+
 #about h2 {
-    margin-top: 0;
     padding: 6.5rem 2rem 0;
 }
 
 #about p {
     padding: 0 2rem 2rem;
     margin-bottom: 0;
-    font-size: 1.1rem;
     line-height: 1.6;
     color: var(--primary_color_900)
 }
@@ -269,26 +273,51 @@ header img, .contact-cell img {
     transform: translateY(4px);
 }
 
-#values h2, #skills h2 {
-    padding: 3.5rem 2rem 0;
+#values {
+    padding-bottom: 1.5rem;
     margin: 0;
 }
 
-#values blockquote, #values p {
+#values h2, #skills h2 {
     padding: 0 2rem;
+}
+
+#values blockquote, #values p {
     line-height: 1.6;
     color: var(--primary_color_900)
 }
 
 #values blockquote {
+    padding: 0 2rem;
     margin: 1.75rem 0 1rem;
     font-size: 1.3rem;
 }
 
-#values p {
+#blockquote-author {
     margin: 0;
+    padding: 0 2rem 2rem;
     font-size: 1.2rem;
     text-align: right;
+}
+
+h3 {
+    font-family: 'futuraheavy', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: var(--secondary_color_400);
+}
+
+.value-description h3 {
+    text-align: left;
+    padding: 0 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.value-description p {
+    text-align: left;
+    padding: 0 2rem 2rem;
+    margin: 0;
 }
 
 #skills-container {
@@ -300,18 +329,14 @@ header img, .contact-cell img {
 }
 
 .skill-set p {
-    font-size: 1.05rem;
     line-height: 1.6;
     margin: 0;
     color: var(--primary_color_900)
 }
 
-h3 {
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 1.2rem;
+.skill-description h3 {
     margin-top: 1.75rem;
     margin-bottom: 0.5rem;
-    color: var(--secondary_color_400);
 }
 
 .contact-cell {
@@ -337,7 +362,6 @@ h3 {
 }
 
 #contact-text p {
-    font-size: 1rem;
     margin-bottom: 1.25rem;
 }
 
