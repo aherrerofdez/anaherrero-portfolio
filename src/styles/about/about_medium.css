@@ -382,3 +382,7 @@ footer p {
 #credits a, #credits a:visited {
     color: var(--primary_color_800);
 }
+
+#credits-small-screen {
+    display: none;
+}
