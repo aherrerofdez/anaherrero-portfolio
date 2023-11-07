@@ -181,9 +181,9 @@ nav ul li a:visited {
     color: var(--primary_color_800);
 }
 
-header, #contact {
+header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
 }
 
 header {
@@ -393,6 +393,11 @@ h3 {
 
 .skill-description h3 {
     margin: 2.25rem 0 1.25rem;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .contact-cell {

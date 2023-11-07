@@ -294,7 +294,7 @@ h2 {
 #contact {
     font-family: 'futurabook', sans-serif;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
 }
 
 .contact-cell {
