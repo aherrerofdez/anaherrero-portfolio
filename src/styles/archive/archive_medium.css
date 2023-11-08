@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'futurabold_italic';
+    src: url('../../fonts/futura_bold_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraextra_black_italic';
+    src: url('../../fonts/futura_extra_black_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_extra_black_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraextra_black';
+    src: url('../../fonts/futura_extra_black-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_extra_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraheavy_italic';
+    src: url('../../fonts/futura_heavy_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_heavy_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraheavy';
+    src: url('../../fonts/futura_heavy-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurabook_italic';
+    src: url('../../fonts/futura_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuralight_italic';
+    src: url('../../fonts/futura_light_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_light_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuralight';
+    src: url('../../fonts/futura_light-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramedium_italic';
+    src: url('../../fonts/futura_medium_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_medium_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('../../fonts/futura_medium-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurabook';
+    src: url('../../fonts/futura-webfont.woff2') format('woff2'),
+         url('../../fonts/futura-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* https://m2.material.io/inline-tools/color/ */
+
+:root {
+    --primary_color_50: #e7e9f0;
+    --primary_color_100: #c1c8db;
+    --primary_color_200: #9aa5c2;
+    --primary_color_300: #7482a9;
+    --primary_color_400: #576898;
+    --primary_color_500: #3a4f88;
+    --primary_color_600: #344780;
+    --primary_color_700: #2c3e75;
+    --primary_color_800: #253568;
+    --primary_color_900: #1b2550;
+    --secondary_color_50: #efe4ef;
+    --secondary_color_100: #d8bcd8;
+    --secondary_color_200: #bf91bf;
+    --secondary_color_300: #a669a5;
+    --secondary_color_400: #934c92;
+    --secondary_color_500: #813581;
+    --secondary_color_600: #76307b;
+    --secondary_color_700: #672a72;
+    --secondary_color_800: #582568;
+    --secondary_color_800: #3f1d55;
+}
+
+body {
+    font-family: 'futurabook', sans-serif;
+    font-size: 1.05rem;
+    background-color: var(--primary_color_50);
+    margin: 0;
+}
+
+#navbar {
+    background-color: var(--primary_color_100);
+    height: 4.5rem;
+    clear: both;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0em 2px 5px var(--primary_color_200);
+}
+
+#logo {
+    float: left;
+    margin-left: 1rem;
+}
+
+.button {
+    padding: 0.85rem 1.5rem;
+    font-size: 1.15rem;
+    font-family: 'futuraheavy', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px var(--primary_color_200);
+    background-color: var(--primary_color_50);
+    color: var(--primary_color_800);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.button:hover {
+    box-shadow: 4px 4px var(--primary_color_800);
+    background-color: var(--primary_color_50);
+}
+
+#logo.button {
+    padding: 0 1.5rem;
+    margin-top: 0.7rem;
+    height: 3.05rem;
+}
+
+#logo img {
+    max-height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin: 0;
+}
+
+nav ul li a {
+    margin-right: 1rem;
+    margin-top: 0.7rem;
+}
+
+nav ul li a:visited {
+    color: var(--primary_color_800);
+}
+
+h2 {
+    font-family: 'futuraheavy', sans-serif;
+    font-size: 1.47rem;
+    color: var(--primary_color_800)
+}
+
+.center-btn {
+    padding: 2.75rem 0 3.75rem;
+    display: flex;
+    justify-content: center;
+}
+
+#cv-btn {
+    color: var(--primary_color_50);
+    background-color: var(--primary_color_800);
+    box-shadow: 4px 4px var(--secondary_color_200);
+}
+
+#cv-btn:hover {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_400);
+}
+
+#cv-btn:active {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_400);
+    transform: translateY(4px);
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-cell {
+    height: 17rem;
+    background-color: var(--primary_color_800);
+}
+
+.contact-cell img {
+    max-width: 95%;
+    max-height: 95%;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+}
+
+#headshot-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
+#contact-text {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    height: 16rem;
+    color: var(--primary_color_50)
+}
+
+#contact-text h2 {
+    color: var(--primary_color_50)
+}
+
+#contact-text p {
+    margin-bottom: 1.3rem;
+}
+
+#contact-text i {
+    vertical-align: middle;
+}
+
+#li-icon {
+    font-size: 1.2rem;
+}
+
+#contact-no-btn, #contact-no-btn:visited {
+    color: var(--primary_color_50);
+}
+
+#contact-btn {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_50);
+    margin-top: 2rem;
+    max-width: fit-content;
+    box-shadow: 4px 4px var(--secondary_color_200);
+}
+
+#contact-btn:hover {
+    color: var(--primary_color_900);
+    background-color: var(--secondary_color_200);
+    box-shadow: 4px 4px var(--primary_color_50);
+}
+
+#contact-btn:active {
+    color: var(--primary_color_900);
+    background-color: var(--secondary_color_200);
+    box-shadow: 4px 4px var(--primary_color_50);
+    transform: translateY(4px);
+}
+
+#contact-btn:visited {
+    color: var(--primary_color_800);
+}
+
+footer {
+    background-color: var(--primary_color_50);
+    color: var(--primary_color_800);
+    text-align: center;
+    font-size: small;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#credits {
+    margin-top: 0;
+    padding: 0.25rem 0 1rem;
+}
+
+#credits a, #credits a:visited {
+    color: var(--primary_color_800);
+}
+
+#credits-small-screen {
+    display: none;
+}
