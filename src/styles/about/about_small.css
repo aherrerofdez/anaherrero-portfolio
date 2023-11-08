@@ -182,6 +182,10 @@ nav ul li a:visited {
     color: var(--primary_color_800);
 }
 
+.not-sm {
+    display: none;
+}
+
 h2 {
     font-family: 'futuraheavy', sans-serif;
     font-size: 1.5rem;

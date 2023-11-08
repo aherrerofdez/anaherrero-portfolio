@@ -130,7 +130,7 @@ body {
 
 #logo {
     float: left;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 .button {
@@ -174,7 +174,7 @@ nav ul {
 
 nav ul li a {
     margin-top: 0.5rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 nav ul li a:visited {
