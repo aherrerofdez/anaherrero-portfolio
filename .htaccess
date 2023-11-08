@@ -1,6 +1,6 @@
 AuthType Basic
 AuthName "Authentication Required"
-AuthUserFile /projects.html/.htpasswd
+AuthUserFile /other/.htpasswd
 Require valid-user
 
 
