@@ -1,9 +1,7 @@
-<Files ../index.html>
 AuthType Basic
 AuthName "Authentication Required"
-AuthUserFile /other/.htpasswd
+AuthUserFile /projects.html/.htpasswd
 Require valid-user
-</Files>
 
 
 RewriteEngine on
