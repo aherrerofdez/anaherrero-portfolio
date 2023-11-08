@@ -1,7 +1,10 @@
+<Files index.html>
 AuthType Basic
-AuthName "Protected Site"
+AuthName "Authentication Required"
 AuthUserFile /other/.htpasswd
-require valid-user
+Require valid-user
+</Files>
+
 
 RewriteEngine on
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
