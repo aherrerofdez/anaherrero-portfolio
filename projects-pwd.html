@@ -26,37 +26,8 @@
 			<p id="error-msg" style="visibility: hidden">Wrong password. Try again!</p>
 		</div>
 	</div>
-	
-	<script type="text/javascript">
-	
-		function loadPage(pwd) {
-	
-			var hash = pwd;
-			hash = Sha1.hash(pwd);
-	
-			if (hash == "291d6f622f89cba1284b59193237890a5b52b9fb") {
-				window.location = "/projects";
-			}
 
-			else {
-				$("#error-msg").css('visibility', 'visible');
-				$("#password").val("");
-			}
-		}
-	
-		$("#loginbutton").on("click", function() {
-			loadPage($("#password").val());
-		});
+	<script type="text/javascript" src="src/scripts/projects-pwd.js"></script>
 
-		$("#password").keypress(function(e) {
-			if (e.which == 13) {
-				loadPage($("#password").val());
-			}
-		});
-
-		$("#password").focus();
-		
-	</script>
-	
 </body>
 </html>
