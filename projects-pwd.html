@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ana Herrero</title>
+	<link rel="icon" type="image/x-icon" href="src/img/logo_favicon.ico">
+	<link rel="stylesheet" media="screen and (max-width: 640px)" href="src/styles/projects_pwd/projects_pwd_small.css"/>
+	<link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" href="src/styles/projects_pwd/projects_pwd_medium.css"/>
+	<link rel="stylesheet" media="screen and (min-width: 1025px)" href="src/styles/projects_pwd/projects_pwd_large.css"/>
+	<script src="https://kit.fontawesome.com/c9fd99d1ab.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+</head>
+<!-- TO-DO: Do Accessibility Audit -->
+<!-- TO-DO: Translate Page to SP & FR -->
+
+<body>
+	<!-- Request Password -->
+	<div class="box">
+		<div class="pwd-form">
+			<input id="password" type="password" placeholder="password"/> <br />
+			<button id="loginbutton" type="button" class="button">
+				Enter &nbsp;<i class="fa-solid fa-arrow-right-to-bracket"></i>
+			</button>
+			<p id="error-msg" style="visibility: hidden">Wrong password. Try again!</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+	
+		function loadPage(pwd) {
+	
+			var hash = pwd;
+			hash = Sha1.hash(pwd);
+	
+			if (hash == "291d6f622f89cba1284b59193237890a5b52b9fb") {
+				window.location = "/private/projects";
+			}
+
+			else {
+				$("#error-msg").css('visibility', 'visible');
+				$("#password").val("");
+			}
+		}
+	
+		$("#loginbutton").on("click", function() {
+			loadPage($("#password").val());
+		});
+
+		$("#password").keypress(function(e) {
+			if (e.which == 13) {
+				loadPage($("#password").val());
+			}
+		});
+
+		$("#password").focus();
+		
+	</script>
+	
+</body>
+</html>
