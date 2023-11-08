@@ -14,6 +14,17 @@
 <!-- TO-DO: Do Accessibility Audit -->
 <!-- TO-DO: Translate Page to SP & FR -->
 <body>
+    <script>
+        var password = "projects_vault";
+        (function passcodeprotect() {
+           var passcode = prompt("Enter password");
+           while (passcode !== password) {
+              alert("Incorrect password");
+              return passcodeprotect();
+           }
+        }());
+        alert('Welcome to the Projects Vault!');
+     </script>
     <!-- Navigation -->
     <div id="navbar">
         <a id="logo" href="/" class="button">
@@ -21,8 +32,6 @@
         </a>
         <nav>
             <ul>
-                <li><a href="#design" class="button">Design</a></li>
-                <li><a href="#dev" class="button">Dev</a></li>
                 <li><a href="#cv" class="button">View CV</a></li>
                 <li><a href="#contact" class="button">Connect</a></li>
             </ul>
@@ -31,6 +40,14 @@
 
     <!-- Main Section -->
     <main>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>A SELECTION OF MY FAVOURITE PROJECTS</h2>
+            <!-- TO-DO: Add Main Projects -->
+            <p>You can check more projects in the <a href="/about">archive</a>.</p>
+            <!-- TO-DO: Add Archive Projects Page -->
+        </section>
+
         <!-- CV Section -->
         <section id="cv">
             <div class="center-btn">

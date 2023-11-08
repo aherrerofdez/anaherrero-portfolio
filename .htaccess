@@ -3,3 +3,8 @@ RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile other/.htpasswd
+require valid-user

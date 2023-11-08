@@ -187,6 +187,26 @@ h2 {
     color: var(--primary_color_800)
 }
 
+#projects {
+    padding: 7.5rem 6rem 0;
+}
+
+#projects h2 {
+    margin: 0;
+    text-align: center;
+}
+
+#projects p {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--primary_color_900)
+}
+
+#projects a, #projects a:visited {
+    color: var(--primary_color_900);
+}
+
 .center-btn {
     padding: 3.75rem 0 4.75rem;
     display: flex;
