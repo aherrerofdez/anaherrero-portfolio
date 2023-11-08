@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'futurabold_italic';
+    src: url('../../fonts/futura_bold_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraextra_black_italic';
+    src: url('../../fonts/futura_extra_black_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_extra_black_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraextra_black';
+    src: url('../../fonts/futura_extra_black-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_extra_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraheavy_italic';
+    src: url('../../fonts/futura_heavy_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_heavy_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuraheavy';
+    src: url('../../fonts/futura_heavy-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurabook_italic';
+    src: url('../../fonts/futura_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuralight_italic';
+    src: url('../../fonts/futura_light_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_light_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuralight';
+    src: url('../../fonts/futura_light-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramedium_italic';
+    src: url('../../fonts/futura_medium_italic-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_medium_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('../../fonts/futura_medium-webfont.woff2') format('woff2'),
+         url('../../fonts/futura_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurabook';
+    src: url('../../fonts/futura-webfont.woff2') format('woff2'),
+         url('../../fonts/futura-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* https://m2.material.io/inline-tools/color/ */
+
+:root {
+    --primary_color_50: #e7e9f0;
+    --primary_color_100: #c1c8db;
+    --primary_color_200: #9aa5c2;
+    --primary_color_300: #7482a9;
+    --primary_color_400: #576898;
+    --primary_color_500: #3a4f88;
+    --primary_color_600: #344780;
+    --primary_color_700: #2c3e75;
+    --primary_color_800: #253568;
+    --primary_color_900: #1b2550;
+    --secondary_color_50: #efe4ef;
+    --secondary_color_100: #d8bcd8;
+    --secondary_color_200: #bf91bf;
+    --secondary_color_300: #a669a5;
+    --secondary_color_400: #934c92;
+    --secondary_color_500: #813581;
+    --secondary_color_600: #76307b;
+    --secondary_color_700: #672a72;
+    --secondary_color_800: #582568;
+    --secondary_color_800: #3f1d55;
+}
+
+body {
+    background-color: var(--primary_color_400);
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.pwd-form {
+    padding: 6rem 6rem 4rem;
+    border-radius: 10px;
+    background-color: var(--primary_color_50);
+}
+
+input {
+    appearance: none;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0.5rem 0.75rem;
+    border-radius: 6px;
+    border: 3px solid var(--primary_color_400);
+    text-align: center;
+    font-family: 'futurabook', sans-serif;
+    font-size: 1.15rem;
+}
+
+input:focus {
+    border-radius: 6px;
+    outline-style: none;
+    border: 3px solid var(--secondary_color_400);
+}
+
+.button {
+    padding: 1rem 2rem;
+    font-size: 1.15rem;
+    font-family: 'futuraheavy', sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: var(--primary_color_50);
+    background-color: var(--primary_color_800);
+    box-shadow: 4px 4px var(--secondary_color_200);
+    text-decoration: none;
+}
+
+.button:hover {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_400);
+}
+
+.button:active {
+    color: var(--primary_color_800);
+    background-color: var(--primary_color_100);
+    box-shadow: 4px 4px var(--secondary_color_400);
+    transform: translateY(4px);
+}
+
+#error-msg {
+    color: var(--secondary_color_700);
+    font-family: 'futurabook', sans-serif;
+    font-size: 1.15rem;
+    margin: 2rem 0 0;
+}
