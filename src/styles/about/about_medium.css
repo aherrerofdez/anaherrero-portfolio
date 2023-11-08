@@ -363,6 +363,10 @@ h2 {
     transform: translateY(4px);
 }
 
+#contact-btn:visited {
+    color: var(--primary_color_800);
+}
+
 footer {
     background-color: var(--primary_color_50);
     color: var(--primary_color_800);

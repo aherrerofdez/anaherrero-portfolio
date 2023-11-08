@@ -349,8 +349,8 @@ h2 {
     transform: translateY(4px);
 }
 
-#buy-coffee-btn {
-    margin-bottom: 2rem;
+#contact-btn:visited {
+    color: var(--primary_color_800);
 }
 
 footer {
