@@ -246,7 +246,7 @@ header img, .contact-cell img {
     justify-content: center;
 }
 
-#about h2 {
+#about h2, #values h2, #skills h2 {
     margin-top: 0;
     padding-top: 6.5rem;
     text-align: center;
@@ -259,7 +259,6 @@ header img, .contact-cell img {
 }
 
 .center-btn {
-    padding-bottom: 4.5rem;
     display: flex;
     justify-content: center;
 }
@@ -281,14 +280,6 @@ header img, .contact-cell img {
     background-color: var(--primary_color_100);
     box-shadow: 4px 4px var(--secondary_color_400);
     transform: translateY(4px);
-}
-
-#values {
-    padding-bottom: 2.5rem;
-}
-
-#values h2, #skills h2 {
-    text-align: center;
 }
 
 #values blockquote, #values p {
@@ -327,6 +318,10 @@ h3 {
     display: none;
 }
 
+.no-pd-bt {
+    padding-bottom: 0;
+}
+
 .left {
     grid-column: 1 / 2;
     align-self: start;
@@ -352,6 +347,10 @@ h3 {
     text-align: left;
     padding-left: 2rem;
     margin: 0.5rem 0;
+}
+
+.no-mg-bt {
+    margin-bottom: 0;
 }
 
 #skills-container {

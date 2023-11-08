@@ -321,6 +321,14 @@ h3 {
     display: none;
 }
 
+.no-pd-bt {
+    padding-bottom: 0;
+}
+
+.no-mg-bt {
+    margin-bottom: 0;
+}
+
 .left {
     grid-column: 1 / 2;
     align-self: start;
