@@ -34,13 +34,13 @@
 	
 			var hash = pwd;
 			hash = Sha1.hash(pwd);
-			var url= hash + "/projects";
+			var url = hash;
 	
 			$.ajax({
 				url : url,
-				dataType : "html",
+				dataType : "txt",
 				success : function(data) {
-					window.location = url;
+					window.location = "/private/projects";
 				},
 				error : function(xhr, ajaxOptions, thrownError) {
 					$("#error-msg").css('visibility', 'visible');
