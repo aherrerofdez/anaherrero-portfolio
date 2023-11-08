@@ -32,18 +32,17 @@
 	
 		function loadPage(pwd) {
 	
-			var hash= pwd;
-			hash= Sha1.hash(pwd);
+			var hash = pwd;
+			hash = Sha1.hash(pwd);
 			var url= hash + "/projects";
 	
 			$.ajax({
 				url : url,
 				dataType : "html",
 				success : function(data) {
-					window.location= url;
+					window.location = url;
 				},
 				error : function(xhr, ajaxOptions, thrownError) {
-					parent.location.hash= hash;
 					$("#error-msg").css('visibility', 'visible');
 					$("#password").val("");
 				}
