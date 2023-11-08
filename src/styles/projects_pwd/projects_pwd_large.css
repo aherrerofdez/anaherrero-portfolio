@@ -174,7 +174,7 @@ input:focus {
 
 #error-msg {
     color: var(--secondary_color_700);
-    font-family: 'futurabook', sans-serif;
+    font-family: 'futuramedium', sans-serif;
     font-size: 1.15rem;
     margin: 2rem 0 0;
 }
