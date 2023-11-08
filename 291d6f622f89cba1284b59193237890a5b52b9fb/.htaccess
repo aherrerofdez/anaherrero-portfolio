@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /291d6f622f89cba1284b59193237890a5b52b9fb/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /$1 [L]
