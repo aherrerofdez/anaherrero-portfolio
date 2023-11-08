@@ -1,4 +1,4 @@
-<Files index.html>
+<Files ../index.html>
 AuthType Basic
 AuthName "Authentication Required"
 AuthUserFile /other/.htpasswd
