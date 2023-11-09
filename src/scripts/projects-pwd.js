@@ -1,13 +1,19 @@
 function loadPage(pwd) {
     var hash = pwd;
     hash = Sha1.hash(pwd);
+    var url = hash + "/projects";
 
-    if (hash == "291d6f622f89cba1284b59193237890a5b52b9fb") {
-        window.location = "/projects";
-    } else {
-        $("#error-msg").css('visibility', 'visible');
-        $("#password").val("");
-    }
+    $.ajax({
+        url : url,
+        dataType : "html",
+        success : function(data) {
+            window.location = url;
+        },
+        error : function(xhr, ajaxOptions, thrownError) {
+            $("#error-msg").css('visibility', 'visible');
+            $("#password").val("");
+        }
+    });
 }
 
 $("#loginbutton").on("click", function() {
