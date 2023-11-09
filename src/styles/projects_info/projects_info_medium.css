@@ -186,7 +186,23 @@ nav ul li a:visited {
 h2 {
     font-family: 'futuraheavy', sans-serif;
     font-size: 1.47rem;
-    color: var(--primary_color_800)
+    color: var(--primary_color_800);
+    margin: 0;
+    text-align: center;
+}
+
+#project-info {
+    padding: 7.5rem 6rem 0;
+}
+
+#project-info p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--primary_color_900)
+}
+
+#project-info a, #project-info a:visited {
+    color: var(--primary_color_900);
 }
 
 .center-btn {
