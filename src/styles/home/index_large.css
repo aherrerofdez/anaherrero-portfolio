@@ -312,7 +312,7 @@ h3 {
 }
 
 .value-set {
-    padding: 0 8rem 2rem;
+    padding: 0 10rem 2rem;
     display: grid;
     grid-template-columns: 7.5rem auto;
 }
