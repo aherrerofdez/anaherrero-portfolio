@@ -1,89 +1,11 @@
 @font-face {
-    font-family: 'futurabold_italic';
-    src: url('../../fonts/futura_bold_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_bold_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Biennale";
+    src: url("../../fonts/Biennale.otf")format("opentype");
 }
 
 @font-face {
-    font-family: 'futuraextra_black_italic';
-    src: url('../../fonts/futura_extra_black_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_extra_black_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraextra_black';
-    src: url('../../fonts/futura_extra_black-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_extra_black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraheavy_italic';
-    src: url('../../fonts/futura_heavy_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_heavy_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraheavy';
-    src: url('../../fonts/futura_heavy-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_heavy-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futurabook_italic';
-    src: url('../../fonts/futura_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuralight_italic';
-    src: url('../../fonts/futura_light_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_light_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuralight';
-    src: url('../../fonts/futura_light-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuramedium_italic';
-    src: url('../../fonts/futura_medium_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_medium_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuramedium';
-    src: url('../../fonts/futura_medium-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futurabook';
-    src: url('../../fonts/futura-webfont.woff2') format('woff2'),
-         url('../../fonts/futura-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Biennale_Bold";
+    src: url("../../fonts/Biennale_Bold.otf")format("opentype");
 }
 
 /* https://m2.material.io/inline-tools/color/ */
@@ -112,19 +34,20 @@
 }
 
 body {
-    font-family: 'futurabook', sans-serif;
-    font-size: 1rem;
+    font-family: 'Biennale', sans-serif;
+    font-size: 16px;
     background-color: var(--primary_color_50);
     margin: 0;
 }
 
 #navbar {
     background-color: var(--primary_color_100);
-    height: 4.25rem;
+    height: 4rem;
     clear: both;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
     box-shadow: 0em 2px 5px var(--primary_color_200);
 }
 
@@ -134,9 +57,8 @@ body {
 }
 
 .button {
-    padding: 0.65rem 1rem;
-    font-size: 1rem;
-    font-family: 'futuraheavy', sans-serif;
+    padding: 0.5rem 0.75rem;
+    font-family: 'Biennale_Bold', sans-serif;
     border: none;
     border-radius: 10px;
     box-shadow: 4px 4px var(--primary_color_200);
@@ -153,13 +75,13 @@ body {
 }
 
 #logo.button {
-    padding: 0 1rem;
-    margin-top: 0.85rem;
-    height: 2.5rem;
+    padding: 0 1.25rem;
+    margin-top: 0.75rem;
+    height: 2.4rem;
 }
 
 #logo img {
-    max-height: 2rem;
+    max-height: 1.5rem;
     pointer-events: none;
     -webkit-touch-callout: none;
 }
@@ -175,7 +97,7 @@ nav ul {
 
 nav ul li a {
     margin-right: 0.75rem;
-    margin-top: 0.85rem;
+    margin-top: 0.75rem;
 }
 
 nav ul li a:visited {
@@ -183,33 +105,34 @@ nav ul li a:visited {
 }
 
 #header-text {
-    padding: 6rem 3rem 3rem;
+    padding: 5.5rem 2.5rem 3rem;
 }
 
 #header-text p {
-    line-height: 1.5rem;
-    margin-bottom: 0;
+    margin-bottom: 12px;
     padding-bottom: 0;
     padding-left: 0.17rem;
 }
 
 h1 {
     color: var(--primary_color_800);
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 3.75rem;
-    margin-top: 0;
+    font-family: 'Biennale_Bold', sans-serif;
+    font-size: 64px;
+    line-height: 1;
+    margin: 0;
     padding-top: 0;
 }
 
 h2 {
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 0;
+    font-family: 'Biennale_Bold', sans-serif;
+    font-size: 24px;
+    margin: 0;
     color: var(--primary_color_800)
 }
 
 #header-text h2 {
-    padding-left: 0.13rem;
+    padding-left: 0.15rem;
+    margin: 16px 0 0;
     height: 3rem;
 }
 
@@ -218,8 +141,7 @@ header .role {
 }
 
 header img, .contact-cell img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
     pointer-events: none;
     -webkit-touch-callout: none;
 }
@@ -228,33 +150,46 @@ header img, .contact-cell img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 2rem;
+    padding: 0 2.5rem;
 }
 
-#about {
-    padding-bottom: 3.5rem;
-    margin: 0;
+#arrow_down_icon {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    z-index: 1;
+    padding-top: 2rem;
+    color: var(--primary_color_800);
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
 }
 
 #about h2 {
-    padding: 6.5rem 2rem 0;
+    padding: 3rem 2.5rem 0;
 }
 
 #about p {
-    padding: 0 2rem 2rem;
+    padding: 0 2.5rem 2rem;
     margin-bottom: 0;
     line-height: 1.6;
     color: var(--primary_color_900)
 }
 
 .center-btn {
-    padding: 0 2rem;
+    padding: 0 2.5rem;
     display: flex;
     justify-content: left;
 }
 
 #about-btn {
-    padding: 0.9rem 1.5rem;
+    padding: 1rem 1.5rem;
     color: var(--primary_color_50);
     background-color: var(--primary_color_800);
     box-shadow: 4px 4px var(--secondary_color_200);
@@ -273,13 +208,8 @@ header img, .contact-cell img {
     transform: translateY(4px);
 }
 
-#values {
-    padding-bottom: 1.5rem;
-    margin: 0;
-}
-
 #values h2, #skills h2 {
-    padding: 0 2rem;
+    padding: 5rem 2.5rem 0;
 }
 
 #values blockquote, #values p {
@@ -288,29 +218,29 @@ header img, .contact-cell img {
 }
 
 #values blockquote {
-    padding: 0 2rem;
-    margin: 1.75rem 0 1rem;
-    font-size: 1.3rem;
+    padding: 0 2.5rem;
+    margin: 1rem 0;
+    font-size: 20px;
 }
 
 #blockquote-author {
     margin: 0;
-    padding: 0 2rem 2rem;
-    font-size: 1.2rem;
+    padding: 0 2.5rem;
+    font-size: 20px;
     text-align: right;
 }
 
 h3 {
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Biennale_Bold', sans-serif;
+    font-size: 20px;
     text-align: left;
     color: var(--secondary_color_400);
 }
 
 .value-set {
-    padding: 0 2rem;
+    padding: 2rem 2.5rem 0;
     display: grid;
-    grid-template-columns: 2rem auto;
+    grid-template-columns: 2.5rem auto;
 }
 
 .not-sm {
@@ -319,12 +249,12 @@ h3 {
 
 .left {
     grid-column: 1 / 2;
-    align-self: start;
-    padding-top: 0.3rem;
+    align-items: start;
 }
 
-.icon img {
-    max-height: 2rem;
+.left img {
+    padding-top: 0.5rem;
+    max-height: 2.25rem;
 }
 
 .right {
@@ -334,20 +264,20 @@ h3 {
 
 .value-description h3 {
     text-align: left;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     margin: 0;
 }
 
 .value-description p {
     text-align: left;
-    padding: 0 2rem 3rem;
+    padding: 0 2.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0;
     line-height: 1.6;
 }
 
 #skills-container {
-    padding: 0 2rem 2.5rem;
+    padding: 0 2.5rem 5rem;
 }
 
 .skill-illustration {
@@ -356,13 +286,13 @@ h3 {
 
 .skill-set p {
     line-height: 1.6;
-    margin: 0;
+    margin: 0 0 0.5rem;
     color: var(--primary_color_900)
 }
 
 .skill-description h3 {
-    margin-top: 1.75rem;
-    margin-bottom: 0.5rem;
+    padding: 1.25rem 0 0;
+    margin: 0;
 }
 
 .contact-cell {
@@ -373,13 +303,13 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 2rem 0;
+    padding: 6rem 2rem 0.5rem;
 }
 
 #contact-text {
     padding-top: 1.5rem;
     text-align: center;
-    height: 15rem;
+    height: 15.5rem;
     color: var(--primary_color_50)
 }
 
@@ -394,10 +324,6 @@ h3 {
 
 #contact-text i {
     vertical-align: middle;
-}
-
-#li-icon {
-    font-size: 1rem;
 }
 
 #contact-no-btn, #contact-no-btn:visited {
@@ -434,7 +360,7 @@ footer {
     background-color: var(--primary_color_50);
     color: var(--primary_color_800);
     text-align: center;
-    font-size: small;
+    font-size: 12px;
 }
 
 footer p {

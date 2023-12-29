@@ -1,89 +1,11 @@
 @font-face {
-    font-family: 'futurabold_italic';
-    src: url('../../fonts/futura_bold_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_bold_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Biennale";
+    src: url("../../fonts/Biennale.otf")format("opentype");
 }
 
 @font-face {
-    font-family: 'futuraextra_black_italic';
-    src: url('../../fonts/futura_extra_black_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_extra_black_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraextra_black';
-    src: url('../../fonts/futura_extra_black-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_extra_black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraheavy_italic';
-    src: url('../../fonts/futura_heavy_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_heavy_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraheavy';
-    src: url('../../fonts/futura_heavy-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_heavy-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futurabook_italic';
-    src: url('../../fonts/futura_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuralight_italic';
-    src: url('../../fonts/futura_light_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_light_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuralight';
-    src: url('../../fonts/futura_light-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuramedium_italic';
-    src: url('../../fonts/futura_medium_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_medium_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuramedium';
-    src: url('../../fonts/futura_medium-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futurabook';
-    src: url('../../fonts/futura-webfont.woff2') format('woff2'),
-         url('../../fonts/futura-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Biennale_Bold";
+    src: url("../../fonts/Biennale_Bold.otf")format("opentype");
 }
 
 /* https://m2.material.io/inline-tools/color/ */
@@ -112,7 +34,7 @@
 }
 
 body {
-    font-family: 'futurabook', sans-serif;
+    font-family: 'Biennale', sans-serif;
     font-size: 1rem;
     background-color: var(--primary_color_50);
     margin: 0;
@@ -136,7 +58,7 @@ body {
 .button {
     padding: 0.65rem 1rem;
     font-size: 1rem;
-    font-family: 'futuraheavy', sans-serif;
+    font-family: 'Biennale_Bold', sans-serif;
     border: none;
     border-radius: 10px;
     box-shadow: 4px 4px var(--primary_color_200);
@@ -183,7 +105,7 @@ nav ul li a:visited {
 }
 
 h2 {
-    font-family: 'futuraheavy', sans-serif;
+    font-family: 'Biennale_Bold', sans-serif;
     font-size: 1.5rem;
     margin-top: 0;
     color: var(--primary_color_800)

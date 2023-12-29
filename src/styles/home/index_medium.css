@@ -1,89 +1,11 @@
 @font-face {
-    font-family: 'futurabold_italic';
-    src: url('../../fonts/futura_bold_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_bold_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Biennale";
+    src: url("../../fonts/Biennale.otf")format("opentype");
 }
 
 @font-face {
-    font-family: 'futuraextra_black_italic';
-    src: url('../../fonts/futura_extra_black_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_extra_black_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraextra_black';
-    src: url('../../fonts/futura_extra_black-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_extra_black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraheavy_italic';
-    src: url('../../fonts/futura_heavy_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_heavy_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuraheavy';
-    src: url('../../fonts/futura_heavy-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_heavy-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futurabook_italic';
-    src: url('../../fonts/futura_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuralight_italic';
-    src: url('../../fonts/futura_light_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_light_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuralight';
-    src: url('../../fonts/futura_light-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuramedium_italic';
-    src: url('../../fonts/futura_medium_italic-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_medium_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futuramedium';
-    src: url('../../fonts/futura_medium-webfont.woff2') format('woff2'),
-         url('../../fonts/futura_medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'futurabook';
-    src: url('../../fonts/futura-webfont.woff2') format('woff2'),
-         url('../../fonts/futura-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Biennale_Bold";
+    src: url("../../fonts/Biennale_Bold.otf")format("opentype");
 }
 
 /* https://m2.material.io/inline-tools/color/ */
@@ -112,8 +34,8 @@
 }
 
 body {
-    font-family: 'futurabook', sans-serif;
-    font-size: 1.05rem;
+    font-family: 'Biennale', sans-serif;
+    font-size: 16px;
     background-color: var(--primary_color_50);
     margin: 0;
 }
@@ -125,6 +47,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
     box-shadow: 0em 2px 5px var(--primary_color_200);
 }
 
@@ -134,9 +57,8 @@ body {
 }
 
 .button {
-    padding: 0.85rem 1.5rem;
-    font-size: 1.15rem;
-    font-family: 'futuraheavy', sans-serif;
+    padding: 0.75rem 1.5rem;
+    font-family: 'Biennale_Bold', sans-serif;
     border: none;
     border-radius: 10px;
     box-shadow: 4px 4px var(--primary_color_200);
@@ -186,48 +108,45 @@ nav ul li a:visited {
     display: none;
 }
 
-header, #contact {
+.header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-header {
-    margin: 3rem 0 0;
+    grid-template-columns: 1fr auto;
+    margin: 4.5rem 0 0;
 }
   
 .header-cell {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 #header-text {
-    padding-top: 2.5rem;
-    padding-left: 3rem;
-    padding-right: 2rem;
+    padding-left: 2.5rem;
 }
 
 #header-text p {
-    line-height: 1.5rem;
-    margin-bottom: 0;
     padding-bottom: 0;
-    padding-left: 0.21rem;
+    padding-left: 0.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 12px;
 }
 
 h1 {
     color: var(--primary_color_800);
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 5rem;
+    font-family: 'Biennale_Bold', sans-serif;
+    font-size: 84px;
+    line-height: 0.9;
     margin: 0;
     padding-top: 0;
 }
 
 h2 {
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 1.47rem;
+    font-family: 'Biennale_Bold', sans-serif;
+    font-size: 24px;
     color: var(--primary_color_800)
 }
 
 #header-text h2 {
     padding-left: 0.21rem;
+    margin-top: 12px;
 }
 
 header .role {
@@ -235,29 +154,49 @@ header .role {
 }
 
 header img, .contact-cell img {
-    max-width: 95%;
+    max-width: 250px;
     max-height: 95%;
     pointer-events: none;
     -webkit-touch-callout: none;
 }
 
 #headshot-main {
-    padding-top: 1.5rem;
     padding-left: 2rem;
-    padding-right: 3rem;
+    padding-right: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#arrow_down_icon {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    z-index: 1;
+    padding-top: 2rem;
+    color: var(--primary_color_800);
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
 #about h2, #values h2, #skills h2 {
     margin-top: 0;
-    padding-top: 6.5rem;
     text-align: center;
 }
 
+#about h2 {
+    padding-top: 2.5rem;
+}
+
 #about p {
-    padding: 0 3.5rem 1.5rem;
+    padding: 0 5rem 1rem;
     line-height: 1.6;
     color: var(--primary_color_900)
 }
@@ -286,34 +225,39 @@ header img, .contact-cell img {
     transform: translateY(4px);
 }
 
+#values h2, #skills h2 {
+    padding-top: 5rem;
+}
+
 #values blockquote, #values p {
     line-height: 1.6;
     color: var(--primary_color_900)
 }
 
 #values blockquote {
-    padding: 0 3.5rem;
-    margin: 2rem 2rem 1rem;
-    font-size: 1.5rem;
+    padding: 0 5rem;
+    margin: 1rem 0;
+    font-size: 20px;
     text-align: center;
 }
 
 #blockquote-author {
     margin: 0;
-    padding: 0 3.5rem 1.5rem;
-    font-size: 1.35rem;
+    padding: 0 2.5rem;
+    font-size: 20px;
     text-align: right;
 }
 
 h3 {
-    font-family: 'futuraheavy', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Biennale_Bold', sans-serif;
+    font-size: 20px;
     text-align: left;
+    margin: 0;
     color: var(--secondary_color_400);
 }
 
 .value-set {
-    padding: 0 3.5rem 1rem;
+    padding: 2rem 2.5rem 0;
     display: grid;
     grid-template-columns: 5rem auto;
 }
@@ -322,45 +266,36 @@ h3 {
     display: none;
 }
 
-.no-pd-bt {
-    padding-bottom: 0;
-}
-
 .left {
     grid-column: 1 / 2;
-    align-self: start;
-    padding-top: 1.5rem;
+    align-items: center;
+    display: flex;
 }
 
-.icon img {
+.left img {
     max-height: 5rem;
 }
 
 .right {
     grid-column: 2 / 3;
-    align-self: center;
 }
 
 .value-description h3 {
     text-align: left;
-    padding-left: 2rem;
-    margin-bottom: 0;
+    padding-left: 1.25rem;
+    margin-top: 0.125rem;
 }
 
 .value-description p {
     text-align: left;
-    padding-left: 2rem;
-    margin: 0.5rem 0;
-}
-
-.no-mg-bt {
-    margin-bottom: 0;
+    padding-left: 1.25rem;
+    margin: 0;
 }
 
 #skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem 3.5rem 6.5rem;
+    padding: 1rem 2.5rem 5rem;
 }
 
 .skill-set {
@@ -381,20 +316,25 @@ h3 {
 }
 
 .skill-description {
-    max-width: 8.75rem;
     display: inline-block;
-    margin: 0 auto;
 }
 
 .skill-set p {
     text-align: left;
     line-height: 1.6;
+    padding: 0 1.25rem;
     margin: 0;
     color: var(--primary_color_900)
 }
 
 .skill-description h3 {
     margin: 1.5rem 0 0.85rem;
+    text-align: center;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .contact-cell {
@@ -405,8 +345,12 @@ h3 {
 #headshot-contact {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-left: 3rem;
+    justify-content: right;
+    padding-right: 2rem;
+}
+
+#headshot-contact img {
+    max-height: 80%;
 }
 
 #contact-text {
@@ -415,11 +359,11 @@ h3 {
     padding-right: 1rem;
     padding-top: 1rem;
     height: 16rem;
-    color: var(--primary_color_50)
+    color: var(--primary_color_50);
 }
 
 #contact-text h2 {
-    color: var(--primary_color_50)
+    color: var(--primary_color_50);
 }
 
 #contact-text p {
@@ -428,10 +372,6 @@ h3 {
 
 #contact-text i {
     vertical-align: middle;
-}
-
-#li-icon {
-    font-size: 1.2rem;
 }
 
 #contact-no-btn, #contact-no-btn:visited {
@@ -467,7 +407,7 @@ footer {
     background-color: var(--primary_color_50);
     color: var(--primary_color_800);
     text-align: center;
-    font-size: small;
+    font-size: 12px;
 }
 
 footer p {
