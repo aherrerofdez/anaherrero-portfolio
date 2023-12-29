@@ -113,14 +113,14 @@
 
 body {
     font-family: 'futurabook', sans-serif;
-    font-size: 1rem;
+    font-size: 1.05rem;
     background-color: var(--primary_color_50);
     margin: 0;
 }
 
 #navbar {
     background-color: var(--primary_color_100);
-    height: 4.25rem;
+    height: 4.5rem;
     clear: both;
     position: fixed;
     top: 0;
@@ -130,12 +130,12 @@ body {
 
 #logo {
     float: left;
-    margin-left: 0.75rem;
+    margin-left: 1rem;
 }
 
 .button {
-    padding: 0.65rem 1rem;
-    font-size: 1rem;
+    padding: 0.85rem 1.5rem;
+    font-size: 1.15rem;
     font-family: 'futuraheavy', sans-serif;
     border: none;
     border-radius: 10px;
@@ -153,13 +153,15 @@ body {
 }
 
 #logo.button {
-    padding: 0 1rem;
-    margin-top: 0.85rem;
-    height: 2.5rem;
+    padding: 0 1.5rem;
+    margin-top: 0.7rem;
+    height: 3.05rem;
 }
 
 #logo img {
-    max-height: 2rem;
+    max-height: 2.5rem;
+    display: flex;
+    justify-content: center;
     pointer-events: none;
     -webkit-touch-callout: none;
 }
@@ -169,13 +171,12 @@ nav ul {
     display: flex;
     justify-content: center;
     float: right;
-    padding: 0;
     margin: 0;
 }
 
 nav ul li a {
-    margin-right: 0.75rem;
-    margin-top: 0.85rem;
+    margin-right: 1rem;
+    margin-top: 0.7rem;
 }
 
 nav ul li a:visited {
@@ -184,19 +185,33 @@ nav ul li a:visited {
 
 h2 {
     font-family: 'futuraheavy', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 0;
-    color: var(--primary_color_800)
+    font-size: 1.47rem;
+    color: var(--primary_color_800);
+    margin: 0;
+    text-align: center;
+}
+
+#project-info {
+    padding: 7.5rem 6rem 0;
+}
+
+#project-info p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--primary_color_900)
+}
+
+#project-info a, #project-info a:visited {
+    color: var(--primary_color_900);
 }
 
 .center-btn {
-    padding: 7rem 0 3rem;
+    padding: 2.75rem 0 3.75rem;
     display: flex;
     justify-content: center;
 }
 
 #cv-btn {
-    padding: 0.9rem 1.5rem;
     color: var(--primary_color_50);
     background-color: var(--primary_color_800);
     box-shadow: 4px 4px var(--secondary_color_200);
@@ -215,13 +230,19 @@ h2 {
     transform: translateY(4px);
 }
 
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .contact-cell {
+    height: 17rem;
     background-color: var(--primary_color_800);
 }
 
 .contact-cell img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 95%;
+    max-height: 95%;
     pointer-events: none;
     -webkit-touch-callout: none;
 }
@@ -230,13 +251,15 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 2rem 0;
+    padding-left: 3rem;
 }
 
 #contact-text {
-    padding-top: 1.5rem;
-    text-align: center;
-    height: 15rem;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    height: 16rem;
     color: var(--primary_color_50)
 }
 
@@ -245,8 +268,7 @@ h2 {
 }
 
 #contact-text p {
-    font-size: 1rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.3rem;
 }
 
 #contact-text i {
@@ -254,7 +276,7 @@ h2 {
 }
 
 #li-icon {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #contact-no-btn, #contact-no-btn:visited {
@@ -264,8 +286,7 @@ h2 {
 #contact-btn {
     color: var(--primary_color_800);
     background-color: var(--primary_color_50);
-    margin: 2.25rem auto 0;
-    padding: 0.9rem 1.5rem;
+    margin-top: 2rem;
     max-width: fit-content;
     box-shadow: 4px 4px var(--secondary_color_200);
 }
@@ -299,14 +320,14 @@ footer p {
 }
 
 #credits {
-    display: none;
+    margin-top: 0;
+    padding: 0.25rem 0 1rem;
 }
 
-#credits-small-screen a, #credits-small-screen a:visited {
+#credits a, #credits a:visited {
     color: var(--primary_color_800);
 }
 
 #credits-small-screen {
-    margin-top: 0;
-    padding: 0.25rem 0 1rem;
+    display: none;
 }
